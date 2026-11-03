@@ -1,0 +1,12 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:energized_steel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "powah:steel_energized"
+  }
+}

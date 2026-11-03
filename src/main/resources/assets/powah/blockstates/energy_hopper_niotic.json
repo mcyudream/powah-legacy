@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "powah:energy_hopper_niotic",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "powah:energy_hopper_niotic",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "powah:energy_hopper_niotic",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "powah:energy_hopper_niotic"
+    },
+    "facing=east": {
+      "model": "powah:energy_hopper_niotic",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "powah:energy_hopper_niotic",
+      "y": 270
+    }
+  }
+}

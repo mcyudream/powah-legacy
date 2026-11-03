@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "c": {
+      "item": "powah:capacitor_blazing"
+    },
+    "d": {
+      "item": "powah:dielectric_rod_horizontal"
+    },
+    "k": {
+      "item": "powah:crystal_blazing"
+    }
+  },
+  "pattern": [
+    "ddd",
+    "kck",
+    "ddd"
+  ],
+  "result": {
+    "count": 12,
+    "item": "powah:energy_cable_blazing"
+  }
+}

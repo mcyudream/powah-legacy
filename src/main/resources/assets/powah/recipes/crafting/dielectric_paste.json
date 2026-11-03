@@ -1,0 +1,30 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "coal"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "coal"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "coal"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    }
+  ],
+  "result": {
+    "count": 24,
+    "item": "powah:dielectric_paste"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "b": {
+      "item": "minecraft:blaze_powder"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "t": {
+      "item": "powah:capacitor_basic_tiny"
+    }
+  },
+  "pattern": [
+    "brb",
+    "rtr",
+    "brb"
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:thermoelectric_plate"
+  }
+}

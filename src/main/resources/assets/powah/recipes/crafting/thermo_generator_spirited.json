@@ -1,0 +1,32 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "c": {
+      "item": "powah:capacitor_spirited"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "g": {
+      "item": "powah:crystal_spirited"
+    },
+    "i": {
+      "item": "powah:dielectric_paste"
+    },
+    "p": {
+      "item": "powah:thermoelectric_plate"
+    },
+    "t": {
+      "item": "powah:thermo_generator_niotic"
+    }
+  },
+  "pattern": [
+    "igi",
+    "cdc",
+    "ptp"
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:thermo_generator_spirited"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "assembled=false": {
+      "model": "powah:reactor_spirited"
+    },
+    "assembled=true": {
+      "model": "lollipop:empty"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "d": {
+      "item": "powah:dielectric_paste"
+    },
+    "l": {
+      "item": "minecraft:dye",
+      "data": 4
+    },
+    "p": {
+      "type": "forge:ore_dict",
+      "ore": "paneGlass"
+    }
+  },
+  "pattern": [
+    "dld",
+    "lpl",
+    "dld"
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:photoelectric_pane"
+  }
+}

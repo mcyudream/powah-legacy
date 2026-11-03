@@ -1,0 +1,8 @@
+{
+  "result": "FAIL",
+  "exit_code": 0,
+  "cleanroom": "0.4.0-alpha",
+  "variant": "server-without-ponder",
+  "report_created": false,
+  "failure": "Official Cleanroom 0.4.0-alpha initializes Kirino client classes on the dedicated server"
+}

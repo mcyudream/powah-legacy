@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "d": {
+      "item": "powah:dielectric_rod_horizontal"
+    },
+    "i": {
+      "item": "minecraft:iron_nugget"
+    },
+    "t": {
+      "item": "powah:capacitor_basic_tiny"
+    }
+  },
+  "pattern": [
+    "ddd",
+    "iti",
+    "ddd"
+  ],
+  "result": {
+    "count": 12,
+    "item": "powah:energy_cable_starter"
+  }
+}

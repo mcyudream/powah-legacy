@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "b": {
+      "item": "powah:crystal_nitro"
+    },
+    "c": {
+      "item": "powah:capacitor_basic_large"
+    },
+    "p": {
+      "item": "powah:dielectric_paste"
+    }
+  },
+  "pattern": [
+    "pbp",
+    "bcb",
+    "pbp"
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:capacitor_nitro"
+  }
+}

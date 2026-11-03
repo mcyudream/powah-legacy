@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "powah:energizing_orb",
+      "x": 180
+    },
+    "facing=down": {
+      "model": "powah:energizing_orb"
+    },
+    "facing=south": {
+      "model": "powah:energizing_orb",
+      "x": 90
+    },
+    "facing=north": {
+      "model": "powah:energizing_orb",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east": {
+      "model": "powah:energizing_orb",
+      "x": 90,
+      "y": 270
+    },
+    "facing=west": {
+      "model": "powah:energizing_orb",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

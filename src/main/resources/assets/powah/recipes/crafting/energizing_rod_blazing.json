@@ -1,0 +1,27 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "b": {
+      "item": "powah:capacitor_blazing"
+    },
+    "c": {
+      "item": "powah:dielectric_casing"
+    },
+    "h": {
+      "item": "powah:energizing_rod_hardened"
+    },
+    "q": {
+      "type": "forge:ore_dict",
+      "ore": "blockQuartz"
+    }
+  },
+  "pattern": [
+    " q ",
+    "bcb",
+    " h "
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:energizing_rod_blazing"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "i": {
+      "item": "minecraft:iron_bars"
+    },
+    "p": {
+      "item": "powah:dielectric_paste"
+    }
+  },
+  "pattern": [
+    "pip",
+    "pip",
+    "pip"
+  ],
+  "result": {
+    "count": 8,
+    "item": "powah:dielectric_rod"
+  }
+}

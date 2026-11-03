@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "l": {
+      "item": "powah:capacitor_niotic"
+    },
+    "r": {
+      "item": "powah:reactor_blazing"
+    },
+    "u": {
+      "item": "powah:uraninite"
+    }
+  },
+  "pattern": [
+    "rlr",
+    "lul",
+    "rlr"
+  ],
+  "result": {
+    "count": 4,
+    "item": "powah:reactor_niotic"
+  }
+}

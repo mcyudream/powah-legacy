@@ -1,0 +1,174 @@
+plugins {
+    id 'java-library'
+    id 'com.cleanroommc.cleanroomgradle'
+}
+group = 'owmii.powah'
+version = '5.1.0-cleanroom-alpha.2'
+base.archivesName = 'powah-legacy'
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(25)
+    withSourcesJar()
+}
+repositories {
+    mavenCentral()
+    maven {
+        url = 'https://api.modrinth.com/maven'
+        content { includeGroup 'maven.modrinth' }
+    }
+}
+dependencies {
+    implementation cleanroom.userdev(cleanroom_version)
+    compileOnly project(':ponder')
+    if (project.hasProperty('withPonder')) runtimeOnly project(':ponder')
+    testImplementation 'junit:junit:4.13.2'
+}
+sourceSets {
+    dev {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += output + compileClasspath
+    }
+    serverDev {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += output + compileClasspath
+    }
+}
+tasks.register('devHarnessJar', Jar) {
+    dependsOn tasks.devClasses
+    archiveFileName = 'powah-verification.jar'
+    destinationDirectory = layout.buildDirectory.dir('dev')
+    from sourceSets.dev.output
+}
+extensions.getByType(net.minecraftforge.renamer.gradle.RenamerExtension).classes('reobfDevHarnessJar', tasks.named('devHarnessJar')) {
+    map.from tasks.named('reobfJar').get().map
+    libraries.from sourceSets.dev.compileClasspath
+    output = layout.buildDirectory.file('dev/powah-verification-srg.jar')
+}
+tasks.register('prepareDevClient') {
+    if (project.hasProperty('powahSmoke')) dependsOn 'devHarnessJar'
+    doLast {
+        def splash = file('run/client/config/splash.properties')
+        splash.parentFile.mkdirs()
+        splash.text = 'enabled=false\n'
+        def harness = file('run/client/mods/powah-verification.jar')
+        if (project.hasProperty('powahSmoke')) {
+            copy { from tasks.devHarnessJar; into harness.parentFile }
+            delete file('run/client/powah-smoke/report.json')
+        } else delete harness
+    }
+}
+def serverSmokeDir = file('run/server-' + (project.hasProperty('withPonder') ? 'with-ponder' : 'standalone'))
+tasks.register('devServerHarnessJar', Jar) {
+    dependsOn tasks.serverDevClasses
+    archiveFileName = 'powah-server-verification.jar'
+    destinationDirectory = layout.buildDirectory.dir('dev')
+    from sourceSets.serverDev.output
+}
+extensions.getByType(net.minecraftforge.renamer.gradle.RenamerExtension).classes('reobfServerHarnessJar', tasks.named('devServerHarnessJar')) {
+    map.from tasks.named('reobfJar').get().map
+    libraries.from sourceSets.serverDev.compileClasspath
+    output = layout.buildDirectory.file('dev/powah-server-verification-srg.jar')
+}
+tasks.register('prepareDevServer') {
+    dependsOn 'devServerHarnessJar'
+    doLast {
+        def properties = new File(serverSmokeDir, 'server.properties')
+        properties.parentFile.mkdirs()
+        if (!properties.exists()) properties.text = '''server-ip=127.0.0.1
+server-port=25597
+online-mode=false
+level-name=powah-verification
+level-type=FLAT
+generator-settings=3;minecraft:bedrock,2*minecraft:dirt,minecraft:grass;1;
+generate-structures=false
+view-distance=3
+max-players=1
+'''
+        copy { from tasks.devServerHarnessJar; into new File(serverSmokeDir, 'mods') }
+        delete new File(serverSmokeDir, 'powah-server-smoke.json')
+    }
+}
+cleanroom {
+    runs {
+        client {
+            configure {
+                username = 'PowahDeveloper'
+                minHeapSize = '256m'
+                maxHeapSize = '1280m'
+                jvmArgs '-XX:ActiveProcessorCount=2'
+                jvmArgs '-Dfoundation.loadsall=true'
+                args '--width', '1280', '--height', '720'
+                dependsOn 'prepareDevClient'
+                if (project.hasProperty('withPonder')) {
+                    jvmArgs '-Dfml.coreMods.load=net.createmod.ponder.mixin.PonderMixinLoader'
+                }
+                if (project.hasProperty('powahSmoke')) {
+                    jvmArgs '-Dpowah.dev.smoke=true'
+                    doLast {
+                        def report = file('run/client/powah-smoke/report.json')
+                        if (!report.exists() || new groovy.json.JsonSlurper().parse(report).result != 'PASS')
+                            throw new GradleException('Powah verification failed; see run/client/powah-smoke/report.json')
+                    }
+                }
+                if (project.hasProperty('packagedSmoke')) {
+                    dependsOn 'reobfJar'
+                    if (project.hasProperty('withPonder')) dependsOn ':ponder:reobfJar'
+                    doFirst {
+                        classpath = classpath.minus(sourceSets.main.output).plus(files(tasks.reobfJar.output))
+                        if (project.hasProperty('withPonder')) {
+                            def ponderTasks = project(':ponder').tasks
+                            classpath = classpath.minus(files(ponderTasks.jar.archiveFile)).plus(files(ponderTasks.reobfJar.output))
+                        }
+                    }
+                }
+            }
+        }
+        server {
+            configure {
+                minHeapSize = '256m'
+                maxHeapSize = '1280m'
+                jvmArgs '-XX:ActiveProcessorCount=2', '-Dfoundation.loadsall=true'
+                if (project.hasProperty('withPonder')) jvmArgs '-Dfml.coreMods.load=net.createmod.ponder.mixin.PonderMixinLoader'
+                if (project.hasProperty('packagedSmoke')) {
+                    dependsOn 'reobfJar'
+                    if (project.hasProperty('withPonder')) dependsOn ':ponder:reobfJar'
+                    doFirst {
+                        classpath = classpath.minus(sourceSets.main.output).plus(files(tasks.reobfJar.output))
+                        if (project.hasProperty('withPonder')) {
+                            def ponderTasks = project(':ponder').tasks
+                            classpath = classpath.minus(files(ponderTasks.jar.archiveFile)).plus(files(ponderTasks.reobfJar.output))
+                        }
+                    }
+                }
+                if (project.hasProperty('powahServerSmoke')) {
+                    workingDir = serverSmokeDir
+                    dependsOn 'prepareDevServer'
+                    doLast {
+                        def report = new File(serverSmokeDir, 'powah-server-smoke.json')
+                        if (!report.exists() || new groovy.json.JsonSlurper().parse(report).result != 'PASS')
+                            throw new GradleException('Powah dedicated server verification failed; see ' + report)
+                    }
+                }
+            }
+        }
+    }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.withType(net.minecraftforge.renamer.gradle.RenameJar).configureEach {
+    javaLauncher.set(javaToolchains.launcherFor { spec -> spec.languageVersion.set(JavaLanguageVersion.of(25)) })
+}
+tasks.withType(Test).configureEach { useJUnit() }
+tasks.register('verifyAssets', Exec) { commandLine 'python3', 'tools/verify-assets.py' }
+tasks.named('check') { dependsOn 'verifyAssets' }
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('mcmod.info') { expand version: project.version }
+}
+jar {
+    manifest { attributes 'Implementation-Version': project.version, 'FMLCorePlugin': 'owmii.powah.compat.cleanroom.Cleanroom040ServerPlugin', 'FMLCorePluginContainsFMLMod': 'true' }
+    from 'LICENSE', 'NOTICE.md', 'upstream-lock.json', 'guide-ui-lock.json', 'runtime-lock.json'
+}
+
+// Forge discovers JSON recipes using the loader ID. Item/block registry IDs stay stable.
+processResources {
+    from('src/main/resources/assets/powah/recipes') { into 'assets/powah-legacy/recipes' }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "assembled=false": {
+      "model": "powah:reactor_nitro"
+    },
+    "assembled=true": {
+      "model": "lollipop:empty"
+    }
+  }
+}

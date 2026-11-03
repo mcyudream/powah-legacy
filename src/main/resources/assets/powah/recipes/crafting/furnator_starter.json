@@ -1,0 +1,26 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "c": {
+      "item": "powah:capacitor_basic_tiny"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "f": {
+      "item": "minecraft:furnace"
+    },
+    "g": {
+      "item": "powah:dielectric_paste"
+    }
+  },
+  "pattern": [
+    "ggg",
+    "cdc",
+    "gfg"
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:furnator_starter"
+  }
+}

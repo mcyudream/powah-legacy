@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "englishKeys": 553,
+  "simplifiedChineseKeys": 553,
+  "missingChineseKeys": [],
+  "missingEnglishKeys": [],
+  "registeredContentNames": 145,
+  "missingContentNames": [],
+  "contentNamesWithoutChinese": [],
+  "guidePages": {
+    "en_us": 28,
+    "zh_cn": 28
+  }
+}

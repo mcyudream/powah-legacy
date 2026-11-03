@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "b": {
+      "item": "minecraft:iron_bars"
+    },
+    "e": {
+      "item": "minecraft:ender_pearl"
+    },
+    "p": {
+      "item": "powah:dielectric_paste"
+    }
+  },
+  "pattern": [
+    "pbp",
+    "beb",
+    "pbp"
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:aerial_pearl"
+  }
+}

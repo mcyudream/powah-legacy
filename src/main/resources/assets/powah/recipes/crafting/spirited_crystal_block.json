@@ -1,0 +1,36 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:crystal_spirited"
+    },
+    {
+      "item": "powah:crystal_spirited"
+    },
+    {
+      "item": "powah:crystal_spirited"
+    },
+    {
+      "item": "powah:crystal_spirited"
+    },
+    {
+      "item": "powah:crystal_spirited"
+    },
+    {
+      "item": "powah:crystal_spirited"
+    },
+    {
+      "item": "powah:crystal_spirited"
+    },
+    {
+      "item": "powah:crystal_spirited"
+    },
+    {
+      "item": "powah:crystal_spirited"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:spirited_crystal_block"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "powah:energy_hopper_starter",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "powah:energy_hopper_starter",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "powah:energy_hopper_starter",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "powah:energy_hopper_starter"
+    },
+    "facing=east": {
+      "model": "powah:energy_hopper_starter",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "powah:energy_hopper_starter",
+      "y": 270
+    }
+  }
+}

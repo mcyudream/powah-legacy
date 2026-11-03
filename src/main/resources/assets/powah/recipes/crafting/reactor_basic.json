@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "l": {
+      "item": "powah:capacitor_basic_large"
+    },
+    "r": {
+      "item": "powah:reactor_starter"
+    },
+    "u": {
+      "item": "powah:uraninite"
+    }
+  },
+  "pattern": [
+    "rlr",
+    "lul",
+    "rlr"
+  ],
+  "result": {
+    "count": 4,
+    "item": "powah:reactor_basic"
+  }
+}

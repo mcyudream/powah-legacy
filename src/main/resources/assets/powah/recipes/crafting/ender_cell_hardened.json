@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "c": {
+      "item": "powah:ender_core"
+    },
+    "i": {
+      "item": "powah:steel_energized"
+    },
+    "o": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "oio",
+    "ici",
+    "oio"
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:ender_cell_hardened"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "verifiedAt": "2026-11-03T19:33:56.700044+00:00",
+  "version": "5.1.0-cleanroom-alpha.1",
+  "target": {
+    "minecraft": "1.12.2",
+    "cleanroom": "0.7.14-alpha",
+    "java": 25
+  },
+  "upstream": {
+    "repository": "https://github.com/Technici4n/Powah",
+    "branch": "1.21.1",
+    "commit": "959d5657b14fada803bc06b024acb5eef8156ab7",
+    "version": "5.1.0-alpha",
+    "minecraft": "1.21.1",
+    "target": "Minecraft 1.12.2 / Cleanroom 0.7.14-alpha / Java 25"
+  },
+  "artifact": {
+    "path": "build/libs/Powah-Cleanroom-1.12.2-5.1.0-cleanroom-alpha.1.jar",
+    "bytes": 1593860,
+    "sha256": "26d6d3efd172c5e8fca9cf7eafc8ca875907fefaef6c964da680ce04bbc8b909"
+  },
+  "packageIsolation": {
+    "result": "PASS",
+    "classCount": 46,
+    "optionalPonderCompatibilityClasses": [
+      "owmii/powah/compat/ponder/PowahPonderPlugin.class"
+    ],
+    "embeddedDevPonderOrCraftTweakerEntries": []
+  },
+  "originalGuiAtlases": [
+    {
+      "path": "powah/textures/gui/container/cable.png",
+      "sha256": "565e00e6a749ac19d66d69badc2a0e5fa0ef8e8e977e9e09c3d03e6f6263896d",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "powah/textures/gui/container/discharger.png",
+      "sha256": "4b7a145c54f32269586053bebaf7e221c73b5c5001bb901b2d580058927e8e3b",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "powah/textures/gui/container/ender_cell.png",
+      "sha256": "ab638246102b9c69d25bc4cfc5cc8cf4a8c76dbcb2b3cecd6bf56a9573c74e1c",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "powah/textures/gui/container/energy_cell.png",
+      "sha256": "419fabcdff3f66c0a9f8f5dd7bd081fb3751aeb30bf6477ebb05160f53bdba93",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "powah/textures/gui/container/furnator.png",
+      "sha256": "c23bb0aa5464f618b9eb70a49208fcf12332f0dbee1792702c4459b4af21b7d9",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "powah/textures/gui/container/magmator.png",
+      "sha256": "dedc963f569c216ab439b70435d0fae61c1b69d06fccb7a6f07a45441962f39a",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "powah/textures/gui/container/player_transmitter.png",
+      "sha256": "d7af44549cf1b1a40328ad127bb16588b8902432d55971c8ae9033f56cfb0be2",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "powah/textures/gui/container/reactor.png",
+      "sha256": "2ba6e8cb206c1b8596d365d8dce43b1461d7b04c44f1832b376493feaa58b674",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "powah/textures/gui/container/thermo.png",
+      "sha256": "9c96442882d26842ac7ff3ed241b2eed05809039c15affdd53c64dff92087b2a",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "powah/textures/gui/container/wide_energy.png",
+      "sha256": "ac0e6d256f92467c7bff4b268fa3e31d973179862543557b46b52916e00986bb",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "lollipop/textures/gui/container/button_ov.png",
+      "sha256": "31c3c335fe7ed2cf8d7d3789742e9dd24fde406bf0afce1dafc8259e9bdb6237",
+      "identicalToUpstream": true
+    }
+  ],
+  "runtimeVerification": [
+    {
+      "mode": "standalone",
+      "result": "PASS",
+      "checks": 205,
+      "report": "verification/standalone/report.json",
+      "sha256": "4f9575acde1fb70c6731af4992ac8faee9bedcb10ebe8984e451bf5b2c6a30d0"
+    },
+    {
+      "mode": "with-ponder",
+      "result": "PASS",
+      "checks": 205,
+      "report": "verification/with-ponder/report.json",
+      "sha256": "6dae16e78d98537030caab7ac012bbac6837f2eaeb5b36bbcd72090ae3847159"
+    },
+    {
+      "mode": "server-standalone",
+      "result": "PASS",
+      "checks": 7,
+      "report": "verification/server-standalone/report.json",
+      "sha256": "8616f58c2ae3cba026687c07768fd1d4b5c1acbb291db3141b857b875f7489ae"
+    },
+    {
+      "mode": "server-with-ponder",
+      "result": "PASS",
+      "checks": 7,
+      "report": "verification/server-with-ponder/report.json",
+      "sha256": "957fea8e561f952458bc9a51108ac48be46db4e9d3587813c42c03c6dbf7e99e"
+    }
+  ],
+  "unitTests": {
+    "tests": 2,
+    "failures": 0,
+    "errors": 0,
+    "report": "verification/EnergyStoreTest.xml"
+  }
+}

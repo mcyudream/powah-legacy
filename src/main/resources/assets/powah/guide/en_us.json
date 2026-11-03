@@ -1,0 +1,1696 @@
+[
+  {
+    "id": "energy_blocks/energizing.md",
+    "title": "Energizing",
+    "parent": "energy_blocks/index.md",
+    "icon": "powah:energizing_orb",
+    "position": 0,
+    "items": [
+      "powah:energizing_orb",
+      "powah:energizing_rod_basic",
+      "powah:energizing_rod_blazing",
+      "powah:energizing_rod_hardened",
+      "powah:energizing_rod_niotic",
+      "powah:energizing_rod_nitro",
+      "powah:energizing_rod_spirited",
+      "powah:energizing_rod_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "energy_blocks/energizing.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "The Energizing Orb its a block used to energize items, require at least one Energizing Rod in range of 9X9 to work, the energizing speed depends on amount of rods and the rod tier (I/O rate)."
+      },
+      {
+        "type": "text",
+        "text": "The orb does not require energy but the rods must be placed on cables or any Forge Energy (FE) block to work."
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:energizing_orb"
+        ]
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "Capacity",
+            "Max I/O"
+          ],
+          [
+            "<ItemLink id=\"powah:energizing_rod_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:energizing_rod_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:energizing_rod_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energizing_rod_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:energizing_rod_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energizing_rod_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energizing_rod_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:energizing_rod_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:energizing_rod_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energizing_rod_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:energizing_rod_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:energizing_rod_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energizing_rod_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:energizing_rod_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energizing_rod_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energizing_rod_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:energizing_rod_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:energizing_rod_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energizing_rod_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:energizing_rod_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:energizing_rod_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:energizing_rod_starter",
+          "powah:energizing_rod_basic",
+          "powah:energizing_rod_hardened",
+          "powah:energizing_rod_blazing",
+          "powah:energizing_rod_niotic",
+          "powah:energizing_rod_spirited",
+          "powah:energizing_rod_nitro"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Step by step"
+      },
+      {
+        "type": "text",
+        "text": "Right-use an Energizing Orb to insert one ingredient. With an empty hand, retrieve an item; sneak-use to retrieve all. Pipes insert in slots 2-7 and extract from slot 1."
+      },
+      {
+        "type": "text",
+        "text": "Power an Energizing Rod at its attached face. It finds the nearest orb within four blocks. Multiple rods can supply one orb. Wrench link mode selects an orb, then a rod."
+      },
+      {
+        "type": "text",
+        "text": "Iron + gold: 2 Energized Steel, 10,000 FE. Blaze rod or 4 blaze powder: Blazing Crystal, 120,000 FE. Diamond: Niotic Crystal, 300,000 FE. Emerald: Spirited Crystal, 1,000,000 FE."
+      },
+      {
+        "type": "text",
+        "text": "Nether star + 2 redstone blocks + Blazing Crystal Block: 16 Nitro Crystals, 20,000,000 FE. Each ingredient needs its own slot. Extract the completed result before adding the next recipe."
+      }
+    ]
+  },
+  {
+    "id": "energy_blocks/energy_discharger.md",
+    "title": "Energy Discharger",
+    "parent": "energy_blocks/index.md",
+    "icon": "powah:energy_discharger_starter",
+    "position": 3,
+    "items": [
+      "powah:energy_discharger_basic",
+      "powah:energy_discharger_blazing",
+      "powah:energy_discharger_hardened",
+      "powah:energy_discharger_niotic",
+      "powah:energy_discharger_nitro",
+      "powah:energy_discharger_spirited",
+      "powah:energy_discharger_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "energy_blocks/energy_discharger.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "The Energy Discharger its a block used to drain energy (FE) out of charged items and then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "Capacity",
+            "Max I/O"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_discharger_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_discharger_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_discharger_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_discharger_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_discharger_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_discharger_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_discharger_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_discharger_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_discharger_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_discharger_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_discharger_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_discharger_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_discharger_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_discharger_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_discharger_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_discharger_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_discharger_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_discharger_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_discharger_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_discharger_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_discharger_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:energy_discharger_starter",
+          "powah:energy_discharger_basic",
+          "powah:energy_discharger_hardened",
+          "powah:energy_discharger_blazing",
+          "powah:energy_discharger_niotic",
+          "powah:energy_discharger_spirited",
+          "powah:energy_discharger_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "energy_blocks/energy_hopper.md",
+    "title": "Energy Hopper",
+    "parent": "energy_blocks/index.md",
+    "icon": "powah:energy_hopper_starter",
+    "position": 2,
+    "items": [
+      "powah:energy_hopper_basic",
+      "powah:energy_hopper_blazing",
+      "powah:energy_hopper_hardened",
+      "powah:energy_hopper_niotic",
+      "powah:energy_hopper_nitro",
+      "powah:energy_hopper_spirited",
+      "powah:energy_hopper_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "energy_blocks/energy_hopper.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "The Energy Hopper its a block used to charge chargeable items inside an adjacent inventory like a chest or any block with an accessible inventory and not a not has forge energy."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "Capacity",
+            "Max I/O"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_hopper_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_hopper_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_hopper_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_hopper_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_hopper_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_hopper_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_hopper_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_hopper_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_hopper_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_hopper_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_hopper_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_hopper_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_hopper_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_hopper_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_hopper_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_hopper_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_hopper_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_hopper_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_hopper_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_hopper_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_hopper_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:energy_hopper_starter",
+          "powah:energy_hopper_basic",
+          "powah:energy_hopper_hardened",
+          "powah:energy_hopper_blazing",
+          "powah:energy_hopper_niotic",
+          "powah:energy_hopper_spirited",
+          "powah:energy_hopper_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "energy_blocks/index.md",
+    "title": "Functional Blocks",
+    "parent": "index.md",
+    "icon": "powah:player_transmitter_spirited",
+    "position": 3,
+    "items": [],
+    "blocks": [
+      {
+        "type": "children"
+      },
+      {
+        "type": "heading",
+        "text": "Step by step"
+      },
+      {
+        "type": "text",
+        "text": "Use a Binding Card in the air to bind it to yourself. Put the card into a powered Player Transmitter to charge items in your inventory. Ordinary cards work in the same dimension."
+      },
+      {
+        "type": "text",
+        "text": "Use a Binding Card on an Enderman or Endermite to make a Dimensional Binding Card; the entity is consumed. Existing player binding is preserved."
+      },
+      {
+        "type": "text",
+        "text": "An Energy Hopper charges items in the inventory on its facing side. It supports vanilla containers and Forge modifiable item handlers. An Energy Discharger draws power from up to seven items and outputs FE."
+      },
+      {
+        "type": "text",
+        "text": "Sneak-use a Battery to enable automatic charging of carried items. Batteries never charge each other. Use an Aerial Pearl on a zombie to obtain a Player Aerial Pearl. Use a Photoelectric Pane on an Enderman or Endermite for a Lens of Ender."
+      }
+    ]
+  },
+  {
+    "id": "energy_blocks/player_transmitter.md",
+    "title": "Player Transmitter",
+    "parent": "energy_blocks/index.md",
+    "icon": "powah:player_transmitter_starter",
+    "position": 1,
+    "items": [
+      "powah:player_transmitter_basic",
+      "powah:player_transmitter_blazing",
+      "powah:player_transmitter_hardened",
+      "powah:player_transmitter_niotic",
+      "powah:player_transmitter_nitro",
+      "powah:player_transmitter_spirited",
+      "powah:player_transmitter_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "energy_blocks/player_transmitter.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "The Player Transmitter its a block used to charge items wirelessly in linked player inventory including armor slots and off-hand anywhere in the same dimension when has a normal binding card and across dimensions when has a dimensional binding card."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "Capacity",
+            "Max I/O"
+          ],
+          [
+            "<ItemLink id=\"powah:player_transmitter_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:player_transmitter_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:player_transmitter_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:player_transmitter_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:player_transmitter_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:player_transmitter_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:player_transmitter_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:player_transmitter_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:player_transmitter_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:player_transmitter_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:player_transmitter_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:player_transmitter_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:player_transmitter_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:player_transmitter_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:player_transmitter_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:player_transmitter_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:player_transmitter_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:player_transmitter_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:player_transmitter_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:player_transmitter_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:player_transmitter_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:player_transmitter_starter",
+          "powah:player_transmitter_basic",
+          "powah:player_transmitter_hardened",
+          "powah:player_transmitter_blazing",
+          "powah:player_transmitter_niotic",
+          "powah:player_transmitter_spirited",
+          "powah:player_transmitter_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "generators/furnator.md",
+    "title": "Furnator",
+    "parent": "generators/index.md",
+    "icon": "powah:furnator_starter",
+    "position": 0,
+    "items": [
+      "powah:furnator_basic",
+      "powah:furnator_blazing",
+      "powah:furnator_hardened",
+      "powah:furnator_niotic",
+      "powah:furnator_nitro",
+      "powah:furnator_spirited",
+      "powah:furnator_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "generators/furnator.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "The Furnator is an FE generator that generates energy from solid Furnace fuel like coal, wood ..."
+      },
+      {
+        "type": "text",
+        "text": "High tiers generate more FE/t and it has higher energy output, also they burn the fuel faster with the same energy gained per fuel tick."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "Capacity",
+            "Generates",
+            "Max Extract"
+          ],
+          [
+            "<ItemLink id=\"powah:furnator_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:furnator_starter\" />",
+            "<powah:EnergyGeneration id=\"powah:furnator_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:furnator_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:furnator_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:furnator_basic\" />",
+            "<powah:EnergyGeneration id=\"powah:furnator_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:furnator_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:furnator_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:furnator_hardened\" />",
+            "<powah:EnergyGeneration id=\"powah:furnator_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:furnator_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:furnator_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:furnator_blazing\" />",
+            "<powah:EnergyGeneration id=\"powah:furnator_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:furnator_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:furnator_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:furnator_niotic\" />",
+            "<powah:EnergyGeneration id=\"powah:furnator_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:furnator_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:furnator_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:furnator_spirited\" />",
+            "<powah:EnergyGeneration id=\"powah:furnator_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:furnator_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:furnator_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:furnator_nitro\" />",
+            "<powah:EnergyGeneration id=\"powah:furnator_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:furnator_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:furnator_starter",
+          "powah:furnator_basic",
+          "powah:furnator_hardened",
+          "powah:furnator_blazing",
+          "powah:furnator_niotic",
+          "powah:furnator_spirited",
+          "powah:furnator_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "generators/index.md",
+    "title": "Generators",
+    "parent": "index.md",
+    "icon": "powah:magmator_niotic",
+    "position": 1,
+    "items": [],
+    "blocks": [
+      {
+        "type": "children"
+      },
+      {
+        "type": "heading",
+        "text": "Step by step"
+      },
+      {
+        "type": "text",
+        "text": "Furnator: insert furnace fuel in the fuel slot. One coal yields 48,000 FE by default. A full buffer pauses fuel use."
+      },
+      {
+        "type": "text",
+        "text": "Magmator: fill with lava using a bucket or fluid pipe. One bucket yields 100,000 FE."
+      },
+      {
+        "type": "text",
+        "text": "Thermo Generator: supply water, and place lava, magma or a Blazing Crystal Block below it. Water use is 1 mB per 40 active ticks."
+      },
+      {
+        "type": "text",
+        "text": "Solar Panel: needs clear sky and daylight. An installed Lens of Ender bypasses obstructions. It still needs daylight."
+      },
+      {
+        "type": "text",
+        "text": "Energy Cells store FE. Connect generators with Energy Cables; the slowest cable limits the path. Use side buttons to choose input, output or disabled. Both slots on the left of an Energy Cell charge items; Furnators, Magmators and Thermo Generators use their lower-left slot."
+      }
+    ]
+  },
+  {
+    "id": "generators/magmator.md",
+    "title": "Magmator",
+    "parent": "generators/index.md",
+    "icon": "powah:magmator_starter",
+    "position": 1,
+    "items": [
+      "powah:magmator_basic",
+      "powah:magmator_blazing",
+      "powah:magmator_hardened",
+      "powah:magmator_niotic",
+      "powah:magmator_nitro",
+      "powah:magmator_spirited",
+      "powah:magmator_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "generators/magmator.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "The Magmator is an FE generator that generates energy from high temp fluids like Lava."
+      },
+      {
+        "type": "text",
+        "text": "High tiers generate more FE/t and it has higher energy output, also they burn the fuel faster with the same energy gained per fuel tick."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "Capacity",
+            "Generates",
+            "Max Extract"
+          ],
+          [
+            "<ItemLink id=\"powah:magmator_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:magmator_starter\" />",
+            "<powah:EnergyGeneration id=\"powah:magmator_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:magmator_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:magmator_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:magmator_basic\" />",
+            "<powah:EnergyGeneration id=\"powah:magmator_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:magmator_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:magmator_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:magmator_hardened\" />",
+            "<powah:EnergyGeneration id=\"powah:magmator_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:magmator_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:magmator_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:magmator_blazing\" />",
+            "<powah:EnergyGeneration id=\"powah:magmator_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:magmator_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:magmator_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:magmator_niotic\" />",
+            "<powah:EnergyGeneration id=\"powah:magmator_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:magmator_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:magmator_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:magmator_spirited\" />",
+            "<powah:EnergyGeneration id=\"powah:magmator_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:magmator_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:magmator_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:magmator_nitro\" />",
+            "<powah:EnergyGeneration id=\"powah:magmator_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:magmator_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:magmator_starter",
+          "powah:magmator_basic",
+          "powah:magmator_hardened",
+          "powah:magmator_blazing",
+          "powah:magmator_niotic",
+          "powah:magmator_spirited",
+          "powah:magmator_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "generators/reactor.md",
+    "title": "Reactor",
+    "parent": "generators/index.md",
+    "icon": "powah:reactor_starter",
+    "position": 4,
+    "items": [
+      "powah:reactor_basic",
+      "powah:reactor_blazing",
+      "powah:reactor_hardened",
+      "powah:reactor_niotic",
+      "powah:reactor_nitro",
+      "powah:reactor_spirited",
+      "powah:reactor_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "generators/reactor.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "The Reactor is a multi-block (FE) generator that use Uraninite as main fuel."
+      },
+      {
+        "type": "text",
+        "text": "To build it you will need 36 Reactor block in your hand and placing them in a 3X4 replaceable area, then the reactor will complete building itself automatically."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "Capacity",
+            "Generation Factor",
+            "Max Extract"
+          ],
+          [
+            "<ItemLink id=\"powah:reactor_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:reactor_starter\" />",
+            "<powah:EnergyGeneration id=\"powah:reactor_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:reactor_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:reactor_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:reactor_basic\" />",
+            "<powah:EnergyGeneration id=\"powah:reactor_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:reactor_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:reactor_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:reactor_hardened\" />",
+            "<powah:EnergyGeneration id=\"powah:reactor_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:reactor_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:reactor_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:reactor_blazing\" />",
+            "<powah:EnergyGeneration id=\"powah:reactor_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:reactor_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:reactor_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:reactor_niotic\" />",
+            "<powah:EnergyGeneration id=\"powah:reactor_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:reactor_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:reactor_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:reactor_spirited\" />",
+            "<powah:EnergyGeneration id=\"powah:reactor_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:reactor_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:reactor_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:reactor_nitro\" />",
+            "<powah:EnergyGeneration id=\"powah:reactor_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:reactor_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:reactor_starter",
+          "powah:reactor_basic",
+          "powah:reactor_hardened",
+          "powah:reactor_blazing",
+          "powah:reactor_niotic",
+          "powah:reactor_spirited",
+          "powah:reactor_nitro"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Step by step"
+      },
+      {
+        "type": "text",
+        "text": "Carry 36 identical Reactor parts and place them in an empty 3 x 4 x 3 area. The clicked location is the bottom center. Placement consumes 36 parts."
+      },
+      {
+        "type": "text",
+        "text": "Slots: lower-left chargeable item; center Uraninite; upper-left furnace fuel; bottom-left redstone; bottom-right solid coolant. Fluid pipes and buckets supply water. Ice, snowballs, packed ice, Blue Ice and Dry Ice are solid coolants."
+      },
+      {
+        "type": "text",
+        "text": "The reactor stores up to 1,000 fuel units; each Uraninite adds 100. Coal and redstone improve efficiency. Water and solid coolant reduce temperature and fuel consumption."
+      },
+      {
+        "type": "text",
+        "text": "Connect cables to the bottom center, four lower side centers or top center. Auto mode pauses at full storage and resumes at 70%."
+      },
+      {
+        "type": "text",
+        "text": "Breaking any part dismantles the structure and refunds 36 parts plus its inventory. Stored energy and fluid travel with the returned parts."
+      }
+    ]
+  },
+  {
+    "id": "generators/solar_panel.md",
+    "title": "Solar Panel",
+    "parent": "generators/index.md",
+    "icon": "powah:solar_panel_starter",
+    "position": 3,
+    "items": [
+      "powah:solar_panel_basic",
+      "powah:solar_panel_blazing",
+      "powah:solar_panel_hardened",
+      "powah:solar_panel_niotic",
+      "powah:solar_panel_nitro",
+      "powah:solar_panel_spirited",
+      "powah:solar_panel_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "generators/solar_panel.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "The Solar Panel is an FE generator that generates energy when exposed to sunlight, high tiers generates more FE/t, any block that stop light above the Solar panel will stop its production."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "Capacity",
+            "Generates",
+            "Max Extract"
+          ],
+          [
+            "<ItemLink id=\"powah:solar_panel_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:solar_panel_starter\" />",
+            "<powah:EnergyGeneration id=\"powah:solar_panel_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:solar_panel_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:solar_panel_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:solar_panel_basic\" />",
+            "<powah:EnergyGeneration id=\"powah:solar_panel_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:solar_panel_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:solar_panel_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:solar_panel_hardened\" />",
+            "<powah:EnergyGeneration id=\"powah:solar_panel_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:solar_panel_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:solar_panel_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:solar_panel_blazing\" />",
+            "<powah:EnergyGeneration id=\"powah:solar_panel_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:solar_panel_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:solar_panel_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:solar_panel_niotic\" />",
+            "<powah:EnergyGeneration id=\"powah:solar_panel_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:solar_panel_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:solar_panel_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:solar_panel_spirited\" />",
+            "<powah:EnergyGeneration id=\"powah:solar_panel_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:solar_panel_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:solar_panel_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:solar_panel_nitro\" />",
+            "<powah:EnergyGeneration id=\"powah:solar_panel_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:solar_panel_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:solar_panel_starter",
+          "powah:solar_panel_basic",
+          "powah:solar_panel_hardened",
+          "powah:solar_panel_blazing",
+          "powah:solar_panel_niotic",
+          "powah:solar_panel_spirited",
+          "powah:solar_panel_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "generators/thermo_generator.md",
+    "title": "Thermo Generator",
+    "parent": "generators/index.md",
+    "icon": "powah:thermo_generator_starter",
+    "position": 2,
+    "items": [
+      "powah:thermo_generator_basic",
+      "powah:thermo_generator_blazing",
+      "powah:thermo_generator_hardened",
+      "powah:thermo_generator_niotic",
+      "powah:thermo_generator_nitro",
+      "powah:thermo_generator_spirited",
+      "powah:thermo_generator_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "generators/thermo_generator.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "The Thermo Generator is an FE generator that generates energy when placed on top of a high temp block/fluid like lava, require a coolant fluid like water to run."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "Capacity",
+            "Generates",
+            "Max Extract"
+          ],
+          [
+            "<ItemLink id=\"powah:thermo_generator_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:thermo_generator_starter\" />",
+            "<powah:EnergyGeneration id=\"powah:thermo_generator_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:thermo_generator_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:thermo_generator_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:thermo_generator_basic\" />",
+            "<powah:EnergyGeneration id=\"powah:thermo_generator_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:thermo_generator_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:thermo_generator_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:thermo_generator_hardened\" />",
+            "<powah:EnergyGeneration id=\"powah:thermo_generator_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:thermo_generator_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:thermo_generator_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:thermo_generator_blazing\" />",
+            "<powah:EnergyGeneration id=\"powah:thermo_generator_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:thermo_generator_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:thermo_generator_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:thermo_generator_niotic\" />",
+            "<powah:EnergyGeneration id=\"powah:thermo_generator_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:thermo_generator_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:thermo_generator_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:thermo_generator_spirited\" />",
+            "<powah:EnergyGeneration id=\"powah:thermo_generator_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:thermo_generator_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:thermo_generator_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:thermo_generator_nitro\" />",
+            "<powah:EnergyGeneration id=\"powah:thermo_generator_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:thermo_generator_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:thermo_generator_starter",
+          "powah:thermo_generator_basic",
+          "powah:thermo_generator_hardened",
+          "powah:thermo_generator_blazing",
+          "powah:thermo_generator_niotic",
+          "powah:thermo_generator_spirited",
+          "powah:thermo_generator_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "index.md",
+    "title": "Powah",
+    "parent": "",
+    "icon": "powah:book",
+    "position": 0,
+    "items": [],
+    "blocks": [
+      {
+        "type": "link",
+        "text": "Generators",
+        "target": "generators/index.md"
+      },
+      {
+        "type": "link",
+        "text": "Storage / Transfer",
+        "target": "storage_transfer/index.md"
+      },
+      {
+        "type": "link",
+        "text": "Functional Blocks",
+        "target": "energy_blocks/index.md"
+      },
+      {
+        "type": "link",
+        "text": "Items",
+        "target": "items/index.md"
+      },
+      {
+        "type": "link",
+        "text": "Materials",
+        "target": "materials/index.md"
+      },
+      {
+        "type": "heading",
+        "text": "Step by step"
+      },
+      {
+        "type": "text",
+        "text": "Powah generates, stores and transmits Forge Energy (FE). Start by crafting Dielectric Paste from coal, clay and a lava bucket."
+      },
+      {
+        "type": "text",
+        "text": "Progress through Starter, Basic, Hardened, Blazing, Niotic, Spirited and Nitro tiers. Energizing unlocks the advanced materials."
+      },
+      {
+        "type": "text",
+        "text": "Use a Wrench in air to cycle rotation, side configuration and linking. Sneak-use a machine to dismantle it. Stored energy and fluids are preserved; inventory contents are returned."
+      },
+      {
+        "type": "text",
+        "text": "If Ponder is installed, hover over a machine and hold W, or use the Ponder link. Scroll to read longer pages."
+      }
+    ]
+  },
+  {
+    "id": "items/battery.md",
+    "title": "Batteries",
+    "parent": "items/index.md",
+    "icon": "powah:battery_starter",
+    "position": 0,
+    "items": [
+      "powah:battery_basic",
+      "powah:battery_blazing",
+      "powah:battery_hardened",
+      "powah:battery_niotic",
+      "powah:battery_nitro",
+      "powah:battery_spirited",
+      "powah:battery_starter"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Charge items when is in player inventory, can Also be used to upgrade the capacity of a Ender Network channel by Shift clicking a Battery to an Ender Cell GUI, if the Battery contain energy then will also be applied to the ender network channel."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "Capacity",
+            "Max I/O"
+          ],
+          [
+            "<ItemLink id=\"powah:battery_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:battery_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:battery_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:battery_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:battery_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:battery_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:battery_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:battery_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:battery_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:battery_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:battery_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:battery_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:battery_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:battery_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:battery_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:battery_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:battery_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:battery_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:battery_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:battery_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:battery_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:battery_starter",
+          "powah:battery_basic",
+          "powah:battery_hardened",
+          "powah:battery_blazing",
+          "powah:battery_niotic",
+          "powah:battery_spirited",
+          "powah:battery_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "items/binding_card.md",
+    "title": "Binding Card",
+    "parent": "items/index.md",
+    "icon": "powah:binding_card",
+    "position": 4,
+    "items": [
+      "powah:binding_card"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Binding Card used to link a player with a Player Transmitter in the same dimension."
+      },
+      {
+        "type": "text",
+        "text": "You need to link it with you before adding it to the player transmitter, Right-click it to bind."
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:binding_card"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "items/binding_card_dim.md",
+    "title": "Binding Card (Dimensional)",
+    "parent": "items/index.md",
+    "icon": "powah:binding_card_dim",
+    "position": 5,
+    "items": [
+      "powah:binding_card_dim"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Dimensional Binding Card used to link a player with a Player Transmitter across dimensions."
+      },
+      {
+        "type": "text",
+        "text": "You need to link it with you before adding it to the player transmitter, Right-click it to bind."
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:binding_card_dim"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "items/charged_snowball.md",
+    "title": "Charged Snowball",
+    "parent": "items/index.md",
+    "icon": "powah:charged_snowball",
+    "position": 2,
+    "items": [
+      "powah:charged_snowball"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Throwing a Charged Snowball will cause a bolt of lightning to spawn when hitting the ground or when it hits the mob, obtained by energizing a snowball."
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:charged_snowball"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "items/index.md",
+    "title": "Items",
+    "parent": "index.md",
+    "icon": "powah:battery_nitro",
+    "position": 4,
+    "items": [],
+    "blocks": [
+      {
+        "type": "children"
+      }
+    ]
+  },
+  {
+    "id": "items/lens_of_ender.md",
+    "title": "Lens Of Ender",
+    "parent": "items/index.md",
+    "icon": "powah:lens_of_ender",
+    "position": 6,
+    "items": [
+      "powah:lens_of_ender"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "When Applying a Lens Of Ender to a Solar Panel will make it see through blocks."
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:lens_of_ender"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "items/player_aerial_pearl.md",
+    "title": "Player Aerial Pearl",
+    "parent": "items/index.md",
+    "icon": "powah:player_aerial_pearl",
+    "position": 3,
+    "items": [
+      "powah:player_aerial_pearl"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Player Aerial Pearl used to craft the player transmitter."
+      },
+      {
+        "type": "text",
+        "text": "You can get it by using an Aerial Pearl on a Zombie or Husk."
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:player_aerial_pearl"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "items/wrench.md",
+    "title": "Wrench",
+    "parent": "items/index.md",
+    "icon": "powah:wrench",
+    "position": 1,
+    "items": [
+      "powah:wrench"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The Wrench has 3 modes:"
+      },
+      {
+        "type": "text",
+        "text": "Config Mode: used to change cables I/O configuration."
+      },
+      {
+        "type": "text",
+        "text": "Link Mode: used to link linkable blocks like energizing orb and rods."
+      },
+      {
+        "type": "text",
+        "text": "Rotate Mode: used to rotate blocks horizontally."
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:wrench"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "materials/dry_ice.md",
+    "title": "Dry Ice",
+    "parent": "materials/index.md",
+    "icon": "powah:dry_ice",
+    "position": 1,
+    "items": [],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "materials/dry_ice.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "Dry Ice used mainly to cool down reactors, it can be found underground at levels below 64, you can also obtain it by energizing two pieces of blue ice."
+      }
+    ]
+  },
+  {
+    "id": "materials/index.md",
+    "title": "Materials",
+    "parent": "index.md",
+    "icon": "powah:uraninite",
+    "position": 5,
+    "items": [],
+    "blocks": [
+      {
+        "type": "children"
+      },
+      {
+        "type": "heading",
+        "text": "Step by step"
+      },
+      {
+        "type": "text",
+        "text": "Uraninite has poor, regular and dense ores. Mine ores for Raw Uraninite, then smelt it, or energize it for double output. Energizing ore blocks yields 3, 5 or 10 Uraninite depending on richness."
+      },
+      {
+        "type": "text",
+        "text": "In 1.12 terrain, poor ore generates at Y 4-63, regular ore at Y 4-23, and dense ore at Y 4-11. Dry Ice generates under cold biomes. Deepslate ores are available for custom worlds."
+      },
+      {
+        "type": "text",
+        "text": "Blue Ice is supplied as powah:blue_ice because 1.12 lacks it. Craft it from 9 packed ice; energize 2 Blue Ice with 10,000 FE to make Dry Ice."
+      },
+      {
+        "type": "text",
+        "text": "A Charged Snowball costs 500,000 FE and summons lightning on impact. Shared recipe ingredients use the Forge ore dictionary. Uranium ingots can be energized only when another mod supplies them."
+      }
+    ]
+  },
+  {
+    "id": "materials/uraninite.md",
+    "title": "Uraninite Ore",
+    "parent": "materials/index.md",
+    "icon": "powah:uraninite_ore_dense",
+    "position": 0,
+    "items": [],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "materials/uraninite.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "Uraninite Ore is an ore rarely found underground at levels below 64 for poor, below 20 for the normal, and below 0 for dense, and is found in 1 - 5 block deposits."
+      },
+      {
+        "type": "text",
+        "text": "An iron or better pickaxe is needed to mine it, and when mined it will drop 1 piece of Raw Uraninite based on the ore type (the amount dropped are effected by fortune)."
+      }
+    ]
+  },
+  {
+    "id": "storage_transfer/ender_cell.md",
+    "title": "Ender Cells",
+    "parent": "storage_transfer/index.md",
+    "icon": "powah:ender_cell_starter",
+    "position": 2,
+    "items": [
+      "powah:ender_cell_basic",
+      "powah:ender_cell_blazing",
+      "powah:ender_cell_hardened",
+      "powah:ender_cell_niotic",
+      "powah:ender_cell_nitro",
+      "powah:ender_cell_spirited",
+      "powah:ender_cell_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "storage_transfer/ender_cell.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "The Ender Cell its a block used to store energy (FE) to a specific channel of the ender network of the owner."
+      },
+      {
+        "type": "text",
+        "text": "You can access the energy stored of a selected channel from anywhere in the world if the Ender Cell that you want to transfer power from/to have an active channel with a valid capacity."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "Max I/O"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_cell_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_cell_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_cell_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_cell_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_cell_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_cell_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_cell_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_cell_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_cell_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_cell_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_cell_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_cell_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_cell_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_cell_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:ender_cell_starter",
+          "powah:ender_cell_basic",
+          "powah:ender_cell_hardened",
+          "powah:ender_cell_blazing",
+          "powah:ender_cell_niotic",
+          "powah:ender_cell_spirited",
+          "powah:ender_cell_nitro"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Step by step"
+      },
+      {
+        "type": "text",
+        "text": "Ender Cells and Gates use a persistent network keyed by the placing player's UUID and the selected channel. Matching networks work across dimensions while their blocks are loaded."
+      },
+      {
+        "type": "text",
+        "text": "A new channel has zero capacity. Open an Ender Cell and Shift-click an Energy Cell or Battery in your inventory. It is consumed, adding its capacity and existing energy permanently to that channel. The two visible slots on the left charge items."
+      },
+      {
+        "type": "text",
+        "text": "Set an Ender Gate to the same channel. Power passes through its attached face. Different players and different channels remain isolated."
+      },
+      {
+        "type": "text",
+        "text": "Higher tiers unlock up to 12 channels. Breaking an Ender Cell does not remove the channel's energy or capacity. Only its owner or an operator can change its configuration."
+      }
+    ]
+  },
+  {
+    "id": "storage_transfer/ender_gate.md",
+    "title": "Ender Gates",
+    "parent": "storage_transfer/index.md",
+    "icon": "powah:ender_gate_starter",
+    "position": 3,
+    "items": [
+      "powah:ender_gate_basic",
+      "powah:ender_gate_blazing",
+      "powah:ender_gate_hardened",
+      "powah:ender_gate_niotic",
+      "powah:ender_gate_nitro",
+      "powah:ender_gate_spirited",
+      "powah:ender_gate_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "storage_transfer/ender_gate.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "Transfer energy between the adjacent block and the ender network."
+      },
+      {
+        "type": "text",
+        "text": "Unlike the Ender cell you can not Upgrade the network from it."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "Max I/O"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_gate_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_gate_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_gate_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_gate_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_gate_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_gate_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_gate_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_gate_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_gate_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_gate_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_gate_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_gate_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_gate_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_gate_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:ender_gate_starter",
+          "powah:ender_gate_basic",
+          "powah:ender_gate_hardened",
+          "powah:ender_gate_blazing",
+          "powah:ender_gate_niotic",
+          "powah:ender_gate_spirited",
+          "powah:ender_gate_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "storage_transfer/energy_cable.md",
+    "title": "Energy Cables",
+    "parent": "storage_transfer/index.md",
+    "icon": "powah:energy_cable_starter",
+    "position": 1,
+    "items": [
+      "powah:energy_cable_basic",
+      "powah:energy_cable_blazing",
+      "powah:energy_cable_hardened",
+      "powah:energy_cable_niotic",
+      "powah:energy_cable_nitro",
+      "powah:energy_cable_spirited",
+      "powah:energy_cable_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "storage_transfer/energy_cable.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "Cables are used to transfer power between machines."
+      },
+      {
+        "type": "text",
+        "text": "You can change transfer mode of by right-clicking a cable using <ItemLink id=\"powah:wrench\" /> with Config mode selected."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "Max I/O"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cable_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cable_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cable_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cable_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cable_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cable_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cable_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cable_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cable_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cable_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cable_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cable_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cable_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cable_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:energy_cable_starter",
+          "powah:energy_cable_basic",
+          "powah:energy_cable_hardened",
+          "powah:energy_cable_blazing",
+          "powah:energy_cable_niotic",
+          "powah:energy_cable_spirited",
+          "powah:energy_cable_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "storage_transfer/energy_cell.md",
+    "title": "Energy Cells",
+    "parent": "storage_transfer/index.md",
+    "icon": "powah:energy_cell_starter",
+    "position": 0,
+    "items": [
+      "powah:energy_cell_basic",
+      "powah:energy_cell_blazing",
+      "powah:energy_cell_creative",
+      "powah:energy_cell_hardened",
+      "powah:energy_cell_niotic",
+      "powah:energy_cell_nitro",
+      "powah:energy_cell_spirited",
+      "powah:energy_cell_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "storage_transfer/energy_cell.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "The Energy Cell its a block used to store energy (FE)."
+      },
+      {
+        "type": "text",
+        "text": "Can Also be used to add capacity to an Ender Network channel by Shift-clicking it to an Ender Cell GUI, if the Energy Cell contains energy then will also be applied to the ender network channel."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "Capacity",
+            "Max I/O"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cell_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_cell_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cell_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cell_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_cell_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cell_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cell_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_cell_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cell_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cell_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_cell_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cell_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cell_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_cell_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cell_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cell_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_cell_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cell_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cell_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_cell_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cell_nitro\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cell_creative\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_cell_creative\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cell_creative\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:energy_cell_starter",
+          "powah:energy_cell_basic",
+          "powah:energy_cell_hardened",
+          "powah:energy_cell_blazing",
+          "powah:energy_cell_niotic",
+          "powah:energy_cell_spirited",
+          "powah:energy_cell_nitro",
+          "powah:energy_cell_creative"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "storage_transfer/index.md",
+    "title": "Storage / Transfer",
+    "parent": "index.md",
+    "icon": "powah:energy_cell_blazing",
+    "position": 2,
+    "items": [],
+    "blocks": [
+      {
+        "type": "children"
+      }
+    ]
+  }
+]

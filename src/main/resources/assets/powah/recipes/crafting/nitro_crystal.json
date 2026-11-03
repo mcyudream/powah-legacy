@@ -1,0 +1,12 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:nitro_crystal_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "powah:crystal_nitro"
+  }
+}

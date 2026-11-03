@@ -1,0 +1,24 @@
+{
+  "upstream": {
+    "repository": "https://github.com/Technici4n/Powah",
+    "branch": "1.21.1",
+    "commit": "959d5657b14fada803bc06b024acb5eef8156ab7",
+    "version": "5.1.0-alpha",
+    "minecraft": "1.21.1",
+    "target": "Minecraft 1.12.2 / Cleanroom >= 0.4.0-alpha / Java 25",
+    "cleanroom_userdev": "0.7.14-alpha",
+    "cleanroom_baseline": "0.4.0-alpha"
+  },
+  "blocks": 107,
+  "items": 38,
+  "craftingRecipes": 156,
+  "energizingRecipes": 14,
+  "adaptations": [
+    "Common item tags map to the Forge 1.12 ore dictionary.",
+    "Lapis lazuli maps to minecraft:dye metadata 4.",
+    "Blue ice is backfilled as powah:blue_ice with its vanilla nine-packed-ice recipe.",
+    "Deepslate ores remain available; natural ores generate in legacy stone at adjusted positive heights.",
+    "The duplicate blast-furnace recipe is omitted; the furnace recipe remains.",
+    "All 28 bilingual GuideME pages use an adapted native GuideME reading layout and optional Ponder scenes."
+  ]
+}

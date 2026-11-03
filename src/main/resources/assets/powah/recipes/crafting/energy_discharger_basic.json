@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "c": {
+      "item": "powah:capacitor_basic"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "p": {
+      "item": "powah:dielectric_paste"
+    }
+  },
+  "pattern": [
+    "pcp",
+    "pdp",
+    "pcp"
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:energy_discharger_basic"
+  }
+}

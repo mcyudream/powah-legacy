@@ -1,0 +1,36 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:crystal_niotic"
+    },
+    {
+      "item": "powah:crystal_niotic"
+    },
+    {
+      "item": "powah:crystal_niotic"
+    },
+    {
+      "item": "powah:crystal_niotic"
+    },
+    {
+      "item": "powah:crystal_niotic"
+    },
+    {
+      "item": "powah:crystal_niotic"
+    },
+    {
+      "item": "powah:crystal_niotic"
+    },
+    {
+      "item": "powah:crystal_niotic"
+    },
+    {
+      "item": "powah:crystal_niotic"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:niotic_crystal_block"
+  }
+}

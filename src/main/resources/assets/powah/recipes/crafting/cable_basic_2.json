@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "c": {
+      "item": "powah:capacitor_basic"
+    },
+    "d": {
+      "item": "powah:dielectric_rod_horizontal"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "ddd",
+    "ici",
+    "ddd"
+  ],
+  "result": {
+    "count": 12,
+    "item": "powah:energy_cable_basic"
+  }
+}

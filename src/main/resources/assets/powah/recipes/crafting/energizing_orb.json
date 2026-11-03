@@ -1,0 +1,24 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "c": {
+      "item": "powah:dielectric_casing"
+    },
+    "g": {
+      "type": "forge:ore_dict",
+      "ore": "blockGlass"
+    },
+    "r": {
+      "item": "powah:dielectric_rod_horizontal"
+    }
+  },
+  "pattern": [
+    "ggg",
+    "gcg",
+    "rrr"
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:energizing_orb"
+  }
+}

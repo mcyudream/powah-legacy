@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "powah:ender_gate_niotic",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "powah:ender_gate_niotic",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "powah:ender_gate_niotic",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "powah:ender_gate_niotic"
+    },
+    "facing=east": {
+      "model": "powah:ender_gate_niotic",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "powah:ender_gate_niotic",
+      "y": 270
+    }
+  }
+}

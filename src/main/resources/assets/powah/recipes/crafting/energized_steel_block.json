@@ -1,0 +1,36 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "powah:steel_energized"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:energized_steel_block"
+  }
+}

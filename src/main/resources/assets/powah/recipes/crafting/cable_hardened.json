@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "c": {
+      "item": "powah:capacitor_hardened"
+    },
+    "d": {
+      "item": "powah:dielectric_rod_horizontal"
+    },
+    "t": {
+      "item": "powah:energy_cable_basic"
+    }
+  },
+  "pattern": [
+    "ddd",
+    "tct",
+    "ddd"
+  ],
+  "result": {
+    "count": 6,
+    "item": "powah:energy_cable_hardened"
+  }
+}

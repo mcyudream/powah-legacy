@@ -1,0 +1,7 @@
+{
+  "result": "PASS",
+  "exit_code": 0,
+  "cleanroom": "0.4.0-alpha",
+  "variant": "client-with-ponder",
+  "report_created": true
+}

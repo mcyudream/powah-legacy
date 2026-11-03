@@ -9,8 +9,11 @@
   "java": 25,
   "ae2_implementation": null,
   "ae2_loader_modid": null,
-  "status": "awaiting-renamed-artifact-verification",
+  "status": "verified-cleanroom-0.4.0",
   "author": "yudream",
   "original_authors": "owmii (original), Technici4n and Powah contributors",
-  "original_repository": "https://github.com/Technici4n/Powah"
+  "original_repository": "https://github.com/Technici4n/Powah",
+  "verification_document": "LEGACY-VERIFICATION.md",
+  "verified_jar_sha256": "fbd35b090fdb12f7b207ce74c28510ab9f7073ce6f90ade8b2f8ff6e3ca4e22a",
+  "verified_main_source_sha256": "984f8ddd6e584b6fbb048f14937ee1e2d481c3fa88d96a0bf79d5b5efb77e8cd"
 }

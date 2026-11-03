@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "powah:magmator_niotic"
+    },
+    "facing=south": {
+      "model": "powah:magmator_niotic",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "powah:magmator_niotic",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "powah:magmator_niotic",
+      "y": 90
+    },
+    "facing=up": {
+      "model": "powah:magmator_niotic"
+    },
+    "facing=down": {
+      "model": "powah:magmator_niotic"
+    }
+  }
+}

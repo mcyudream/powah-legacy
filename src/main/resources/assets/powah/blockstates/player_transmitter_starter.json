@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "powah:player_transmitter_starter"
+    }
+  }
+}

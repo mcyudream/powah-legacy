@@ -1,0 +1,207 @@
+{
+  "verifiedAt": "2026-11-03T20:00:01.480385+00:00",
+  "version": "5.1.0-cleanroom-alpha.2",
+  "target": {
+    "minecraft": "1.12.2",
+    "java": 25,
+    "minimumCleanroom": "0.4.0-alpha",
+    "cleanroomUserdev": "0.7.14-alpha"
+  },
+  "baselineAcceptance": {
+    "client": "PASS",
+    "dedicatedServer": "BLOCKED_BY_OFFICIAL_LOADER",
+    "emptyServerReproducesFailure": true
+  },
+  "upstream": {
+    "repository": "https://github.com/Technici4n/Powah",
+    "branch": "1.21.1",
+    "commit": "959d5657b14fada803bc06b024acb5eef8156ab7",
+    "version": "5.1.0-alpha",
+    "minecraft": "1.21.1",
+    "target": "Minecraft 1.12.2 / Cleanroom >= 0.4.0-alpha / Java 25",
+    "cleanroom_userdev": "0.7.14-alpha",
+    "cleanroom_baseline": "0.4.0-alpha"
+  },
+  "artifact": {
+    "path": "build/libs/Powah-Cleanroom-1.12.2-5.1.0-cleanroom-alpha.2.jar",
+    "bytes": 2033356,
+    "sha256": "73915613ab249aa273e79cc8790036898e537d72436abd59c92292a48af7483a"
+  },
+  "sources": {
+    "path": "build/libs/Powah-Cleanroom-1.12.2-5.1.0-cleanroom-alpha.2-sources.jar",
+    "sha256": "87e259a0074f1d9fe5fa82725f3459c70a71762cae021dead58cbcd094465db0"
+  },
+  "packageIsolation": {
+    "result": "PASS",
+    "classCount": 51,
+    "javaClassMajor": 69,
+    "embeddedDevOrDependencyEntries": [],
+    "optionalPonderCompatibilityClasses": [
+      "owmii/powah/compat/ponder/PowahPonderPlugin.class"
+    ]
+  },
+  "originalGuiAtlases": [
+    {
+      "path": "powah/textures/gui/container/cable.png",
+      "sha256": "565e00e6a749ac19d66d69badc2a0e5fa0ef8e8e977e9e09c3d03e6f6263896d",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "powah/textures/gui/container/discharger.png",
+      "sha256": "4b7a145c54f32269586053bebaf7e221c73b5c5001bb901b2d580058927e8e3b",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "powah/textures/gui/container/ender_cell.png",
+      "sha256": "ab638246102b9c69d25bc4cfc5cc8cf4a8c76dbcb2b3cecd6bf56a9573c74e1c",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "powah/textures/gui/container/energy_cell.png",
+      "sha256": "419fabcdff3f66c0a9f8f5dd7bd081fb3751aeb30bf6477ebb05160f53bdba93",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "powah/textures/gui/container/furnator.png",
+      "sha256": "c23bb0aa5464f618b9eb70a49208fcf12332f0dbee1792702c4459b4af21b7d9",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "powah/textures/gui/container/magmator.png",
+      "sha256": "dedc963f569c216ab439b70435d0fae61c1b69d06fccb7a6f07a45441962f39a",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "powah/textures/gui/container/player_transmitter.png",
+      "sha256": "d7af44549cf1b1a40328ad127bb16588b8902432d55971c8ae9033f56cfb0be2",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "powah/textures/gui/container/reactor.png",
+      "sha256": "2ba6e8cb206c1b8596d365d8dce43b1461d7b04c44f1832b376493feaa58b674",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "powah/textures/gui/container/thermo.png",
+      "sha256": "9c96442882d26842ac7ff3ed241b2eed05809039c15affdd53c64dff92087b2a",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "powah/textures/gui/container/wide_energy.png",
+      "sha256": "ac0e6d256f92467c7bff4b268fa3e31d973179862543557b46b52916e00986bb",
+      "identicalToUpstream": true
+    },
+    {
+      "path": "lollipop/textures/gui/container/button_ov.png",
+      "sha256": "31c3c335fe7ed2cf8d7d3789742e9dd24fde406bf0afce1dafc8259e9bdb6237",
+      "identicalToUpstream": true
+    }
+  ],
+  "guideUi": {
+    "upstream": {
+      "repository": "https://github.com/AppliedEnergistics/GuideME",
+      "version": "21.1.7",
+      "artifact": "https://repo.maven.apache.org/maven2/org/appliedenergistics/guideme/21.1.7/guideme-21.1.7.jar",
+      "sha256": "c3a887e88525e06f116da767d0905509e81d2792c0452f49f6907c1b88f386bf",
+      "sources_sha256": "0afcb138c2db3a6e00ef72de9a9a7063e092cde94301b91805eee979b2bb35f5",
+      "license": "LGPL-3.0",
+      "imported_assets": [
+        "assets/guideme/textures/gui/sprites/background.png",
+        "assets/guideme/textures/guide/buttons.png"
+      ]
+    },
+    "implementation": "GuideME layout adapted to the Minecraft 1.12 GUI API",
+    "originalTextures": [
+      {
+        "path": "assets/powah/textures/guide/background.png",
+        "identicalToUpstream": true,
+        "sha256": "512fd9b4234502f1e867d7b4793ee3f60415be23d48e0cd985c4468d55433736"
+      },
+      {
+        "path": "assets/powah/textures/guide/buttons.png",
+        "identicalToUpstream": true,
+        "sha256": "8dacb82805a15d9c9c6300c4d7404097dfc2a55402c2389fcfcdea40d88ddd6c"
+      }
+    ],
+    "englishPages": 28,
+    "simplifiedChinesePages": 28
+  },
+  "runtimeVerification": [
+    {
+      "cleanroom": "0.4.0-alpha",
+      "mode": "client-without-ponder",
+      "result": "PASS",
+      "checks": 218,
+      "report": "verification/cleanroom-0.4.0-alpha/client-without-ponder/report.json",
+      "runtimeManifestSha256": "b97f4e31d99ecc4dffe58cb751dc62fa19d6ebd9efc7111e6f39eccd88891762"
+    },
+    {
+      "cleanroom": "0.4.0-alpha",
+      "mode": "client-with-ponder",
+      "result": "PASS",
+      "checks": 218,
+      "report": "verification/cleanroom-0.4.0-alpha/client-with-ponder/report.json",
+      "runtimeManifestSha256": "6284137d635351f5b05121712967bfc1471e8deb091e783c53abea3c5d443428"
+    },
+    {
+      "cleanroom": "0.4.0-alpha",
+      "mode": "server-without-ponder",
+      "result": "FAIL",
+      "checks": 0,
+      "report": "verification/cleanroom-0.4.0-alpha/server-without-ponder/result.json",
+      "runtimeManifestSha256": "d4c94bc7e8ad867f3cac59d9900a4ffb928cebdcb2031d3dfc803aaaabe4fc19"
+    },
+    {
+      "cleanroom": "0.4.0-alpha",
+      "mode": "server-with-ponder",
+      "result": "FAIL",
+      "checks": 0,
+      "report": "verification/cleanroom-0.4.0-alpha/server-with-ponder/result.json",
+      "runtimeManifestSha256": "20cd8254bbff4faf025c6efff9fe0371855ecdf58d1363ec3bd00573528f7643"
+    },
+    {
+      "cleanroom": "0.4.0-alpha",
+      "mode": "empty-server",
+      "result": "FAIL",
+      "checks": 0,
+      "report": "verification/cleanroom-0.4.0-alpha/empty-server/result.json",
+      "runtimeManifestSha256": "e9a85a9e346b598b1f19ca1337c63fa5221d1899f45899092f1a0e6cab3bf24f"
+    },
+    {
+      "cleanroom": "0.7.14-alpha",
+      "environment": "userdev with packaged Powah jar",
+      "mode": "server-standalone",
+      "result": "PASS",
+      "checks": 7,
+      "report": "verification/cleanroom-0.7.14-alpha/server-standalone/report.json"
+    },
+    {
+      "cleanroom": "0.7.14-alpha",
+      "environment": "userdev with packaged Powah jar",
+      "mode": "server-with-ponder",
+      "result": "PASS",
+      "checks": 7,
+      "report": "verification/cleanroom-0.7.14-alpha/server-with-ponder/report.json"
+    }
+  ],
+  "unitTests": {
+    "tests": 2,
+    "failures": 0,
+    "errors": 0,
+    "report": "verification/EnergyStoreTest.xml"
+  },
+  "localization": {
+    "result": "PASS",
+    "englishKeys": 553,
+    "simplifiedChineseKeys": 553,
+    "missingChineseKeys": [],
+    "missingEnglishKeys": [],
+    "registeredContentNames": 145,
+    "missingContentNames": [],
+    "contentNamesWithoutChinese": [],
+    "guidePages": {
+      "en_us": 28,
+      "zh_cn": 28
+    }
+  }
+}

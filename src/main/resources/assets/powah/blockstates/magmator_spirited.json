@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "powah:magmator_spirited"
+    },
+    "facing=south": {
+      "model": "powah:magmator_spirited",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "powah:magmator_spirited",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "powah:magmator_spirited",
+      "y": 90
+    },
+    "facing=up": {
+      "model": "powah:magmator_spirited"
+    },
+    "facing=down": {
+      "model": "powah:magmator_spirited"
+    }
+  }
+}

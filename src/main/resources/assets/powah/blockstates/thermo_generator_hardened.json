@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "powah:thermo_generator_hardened"
+    }
+  }
+}

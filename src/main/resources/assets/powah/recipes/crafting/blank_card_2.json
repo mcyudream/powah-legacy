@@ -1,0 +1,15 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "p": {
+      "item": "powah:dielectric_rod"
+    }
+  },
+  "pattern": [
+    "pp"
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:blank_card"
+  }
+}

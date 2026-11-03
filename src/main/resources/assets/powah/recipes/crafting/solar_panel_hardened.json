@@ -1,0 +1,26 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "c": {
+      "item": "powah:capacitor_hardened"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "g": {
+      "item": "powah:steel_energized"
+    },
+    "p": {
+      "item": "powah:solar_panel_basic"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "cdc",
+    "ggg"
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:solar_panel_hardened"
+  }
+}

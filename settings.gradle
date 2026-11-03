@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        maven { url = 'https://maven.cleanroommc.com' }
+        gradlePluginPortal()
+    }
+}
+plugins { id 'com.cleanroommc.cleanroomgradle.settings' version '0.22.0' }
+rootProject.name = 'powah-legacy'
+// Ponder is needed only for compilation and an explicitly requested dev run.
+include ':ponder'
+project(':ponder').projectDir = file('../ponder/build.gradle').exists() ? file('../ponder') : file('.legacy-deps/ponder')

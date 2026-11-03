@@ -1,0 +1,12 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:ender_cell_starter"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:ender_cell_starter"
+  }
+}

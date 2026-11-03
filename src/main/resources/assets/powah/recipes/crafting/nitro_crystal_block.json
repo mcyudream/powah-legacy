@@ -1,0 +1,36 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:crystal_nitro"
+    },
+    {
+      "item": "powah:crystal_nitro"
+    },
+    {
+      "item": "powah:crystal_nitro"
+    },
+    {
+      "item": "powah:crystal_nitro"
+    },
+    {
+      "item": "powah:crystal_nitro"
+    },
+    {
+      "item": "powah:crystal_nitro"
+    },
+    {
+      "item": "powah:crystal_nitro"
+    },
+    {
+      "item": "powah:crystal_nitro"
+    },
+    {
+      "item": "powah:crystal_nitro"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:nitro_crystal_block"
+  }
+}

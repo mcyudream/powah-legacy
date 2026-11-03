@@ -1,0 +1,1696 @@
+[
+  {
+    "id": "energy_blocks/energizing.md",
+    "title": "充能",
+    "parent": "energy_blocks/index.md",
+    "icon": "powah:energizing_orb",
+    "position": 0,
+    "items": [
+      "powah:energizing_orb",
+      "powah:energizing_rod_basic",
+      "powah:energizing_rod_blazing",
+      "powah:energizing_rod_hardened",
+      "powah:energizing_rod_niotic",
+      "powah:energizing_rod_nitro",
+      "powah:energizing_rod_spirited",
+      "powah:energizing_rod_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "energy_blocks/energizing.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "充能台可被用于为物体充能。其周围 9X9 格内必须有至少 1 个充能棒。充能速度取决于充能棒的数量及其等级。"
+      },
+      {
+        "type": "text",
+        "text": "充能台本身不需要能量供应，但充能棒必须位于线缆或 FE 存储方块上方以工作。"
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:energizing_orb"
+        ]
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "电容",
+            "最大输入输出"
+          ],
+          [
+            "<ItemLink id=\"powah:energizing_rod_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:energizing_rod_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:energizing_rod_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energizing_rod_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:energizing_rod_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energizing_rod_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energizing_rod_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:energizing_rod_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:energizing_rod_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energizing_rod_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:energizing_rod_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:energizing_rod_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energizing_rod_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:energizing_rod_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energizing_rod_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energizing_rod_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:energizing_rod_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:energizing_rod_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energizing_rod_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:energizing_rod_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:energizing_rod_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:energizing_rod_starter",
+          "powah:energizing_rod_basic",
+          "powah:energizing_rod_hardened",
+          "powah:energizing_rod_blazing",
+          "powah:energizing_rod_niotic",
+          "powah:energizing_rod_spirited",
+          "powah:energizing_rod_nitro"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "操作步骤"
+      },
+      {
+        "type": "text",
+        "text": "右键充能球每次放入一个原料。空手右键取出一个物品，潜行空手右键全部取出。自动化从第 2～7 格输入、第 1 格输出。"
+      },
+      {
+        "type": "text",
+        "text": "从充能棒贴附的面输入能量，它会寻找四格内最近的充能球。多个棒可以同时供能；扳手连接模式先选球，再选棒。"
+      },
+      {
+        "type": "text",
+        "text": "铁锭＋金锭：2 个充能钢，10,000 FE。烈焰棒或 4 个烈焰粉：烈焰水晶，120,000 FE。钻石：钻石水晶，300,000 FE。绿宝石：绿宝石水晶，1,000,000 FE。"
+      },
+      {
+        "type": "text",
+        "text": "下界之星＋2 个红石块＋烈焰水晶块：16 个终极水晶，20,000,000 FE。每份原料单占一格；成品取出后才能继续放料。"
+      }
+    ]
+  },
+  {
+    "id": "energy_blocks/energy_discharger.md",
+    "title": "能量提取器",
+    "parent": "energy_blocks/index.md",
+    "icon": "powah:energy_discharger_starter",
+    "position": 3,
+    "items": [
+      "powah:energy_discharger_basic",
+      "powah:energy_discharger_blazing",
+      "powah:energy_discharger_hardened",
+      "powah:energy_discharger_niotic",
+      "powah:energy_discharger_nitro",
+      "powah:energy_discharger_spirited",
+      "powah:energy_discharger_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "energy_blocks/energy_discharger.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "能量提取器可被用于提取已含能量物品中的能量并将之存储于自身的缓存中。可以用线缆将能量提取器中的能量提取以再次利用这些能量。"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "电容",
+            "最大输入输出"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_discharger_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_discharger_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_discharger_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_discharger_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_discharger_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_discharger_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_discharger_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_discharger_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_discharger_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_discharger_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_discharger_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_discharger_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_discharger_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_discharger_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_discharger_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_discharger_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_discharger_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_discharger_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_discharger_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_discharger_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_discharger_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:energy_discharger_starter",
+          "powah:energy_discharger_basic",
+          "powah:energy_discharger_hardened",
+          "powah:energy_discharger_blazing",
+          "powah:energy_discharger_niotic",
+          "powah:energy_discharger_spirited",
+          "powah:energy_discharger_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "energy_blocks/energy_hopper.md",
+    "title": "能量漏斗",
+    "parent": "energy_blocks/index.md",
+    "icon": "powah:energy_hopper_starter",
+    "position": 2,
+    "items": [
+      "powah:energy_hopper_basic",
+      "powah:energy_hopper_blazing",
+      "powah:energy_hopper_hardened",
+      "powah:energy_hopper_niotic",
+      "powah:energy_hopper_nitro",
+      "powah:energy_hopper_spirited",
+      "powah:energy_hopper_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "energy_blocks/energy_hopper.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "能量漏斗可被用于充能包含可交互物品栏且不含 FE 能量的相邻方块中的可充能物品。"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "电容",
+            "最大输入输出"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_hopper_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_hopper_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_hopper_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_hopper_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_hopper_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_hopper_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_hopper_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_hopper_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_hopper_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_hopper_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_hopper_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_hopper_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_hopper_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_hopper_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_hopper_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_hopper_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_hopper_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_hopper_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_hopper_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_hopper_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_hopper_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:energy_hopper_starter",
+          "powah:energy_hopper_basic",
+          "powah:energy_hopper_hardened",
+          "powah:energy_hopper_blazing",
+          "powah:energy_hopper_niotic",
+          "powah:energy_hopper_spirited",
+          "powah:energy_hopper_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "energy_blocks/index.md",
+    "title": "功能性方块",
+    "parent": "index.md",
+    "icon": "powah:player_transmitter_spirited",
+    "position": 3,
+    "items": [],
+    "blocks": [
+      {
+        "type": "children"
+      },
+      {
+        "type": "heading",
+        "text": "操作步骤"
+      },
+      {
+        "type": "text",
+        "text": "对空气使用绑定卡将其绑定自己。把卡放入已供能的玩家能量发射器，为背包物品充电。普通卡限同一维度。"
+      },
+      {
+        "type": "text",
+        "text": "用绑定卡右键末影人或末影螨，可消耗生物制成跨维度绑定卡，并保留玩家绑定。"
+      },
+      {
+        "type": "text",
+        "text": "能量漏斗给朝向容器内的物品充电，支持原版容器及 Forge 可修改物品处理器。能量放电器从最多七个物品提取能量并输出 FE。"
+      },
+      {
+        "type": "text",
+        "text": "潜行右键电池开启随身充电，电池不会相互充电。用天空珍珠右键僵尸获得玩家天空珍珠；用光电板右键末影人或末影螨获得末影透镜，均会消耗生物。"
+      }
+    ]
+  },
+  {
+    "id": "energy_blocks/player_transmitter.md",
+    "title": "玩家供电仪",
+    "parent": "energy_blocks/index.md",
+    "icon": "powah:player_transmitter_starter",
+    "position": 1,
+    "items": [
+      "powah:player_transmitter_basic",
+      "powah:player_transmitter_blazing",
+      "powah:player_transmitter_hardened",
+      "powah:player_transmitter_niotic",
+      "powah:player_transmitter_nitro",
+      "powah:player_transmitter_spirited",
+      "powah:player_transmitter_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "energy_blocks/player_transmitter.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "玩家供电仪可被用于充能链接至的玩家物品栏中的物品。装有绑定卡时可为在当前维度的玩家充能，而装有绑定卡（跨维度）时可为在任意维度的玩家充能。"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "电容",
+            "最大输入输出"
+          ],
+          [
+            "<ItemLink id=\"powah:player_transmitter_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:player_transmitter_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:player_transmitter_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:player_transmitter_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:player_transmitter_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:player_transmitter_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:player_transmitter_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:player_transmitter_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:player_transmitter_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:player_transmitter_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:player_transmitter_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:player_transmitter_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:player_transmitter_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:player_transmitter_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:player_transmitter_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:player_transmitter_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:player_transmitter_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:player_transmitter_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:player_transmitter_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:player_transmitter_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:player_transmitter_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:player_transmitter_starter",
+          "powah:player_transmitter_basic",
+          "powah:player_transmitter_hardened",
+          "powah:player_transmitter_blazing",
+          "powah:player_transmitter_niotic",
+          "powah:player_transmitter_spirited",
+          "powah:player_transmitter_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "generators/furnator.md",
+    "title": "熔炉发电机",
+    "parent": "generators/index.md",
+    "icon": "powah:furnator_starter",
+    "position": 0,
+    "items": [
+      "powah:furnator_basic",
+      "powah:furnator_blazing",
+      "powah:furnator_hardened",
+      "powah:furnator_niotic",
+      "powah:furnator_nitro",
+      "powah:furnator_spirited",
+      "powah:furnator_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "generators/furnator.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "熔炉发电机通过燃烧木头、煤炭等燃料产出 FE 能量。"
+      },
+      {
+        "type": "text",
+        "text": "更高等级拥有更快的输出速度，同时每刻产出的 FE 能量也更多，产出能量相同时消耗燃料也更快。"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "电容",
+            "产出",
+            "最大输出"
+          ],
+          [
+            "<ItemLink id=\"powah:furnator_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:furnator_starter\" />",
+            "<powah:EnergyGeneration id=\"powah:furnator_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:furnator_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:furnator_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:furnator_basic\" />",
+            "<powah:EnergyGeneration id=\"powah:furnator_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:furnator_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:furnator_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:furnator_hardened\" />",
+            "<powah:EnergyGeneration id=\"powah:furnator_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:furnator_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:furnator_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:furnator_blazing\" />",
+            "<powah:EnergyGeneration id=\"powah:furnator_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:furnator_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:furnator_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:furnator_niotic\" />",
+            "<powah:EnergyGeneration id=\"powah:furnator_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:furnator_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:furnator_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:furnator_spirited\" />",
+            "<powah:EnergyGeneration id=\"powah:furnator_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:furnator_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:furnator_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:furnator_nitro\" />",
+            "<powah:EnergyGeneration id=\"powah:furnator_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:furnator_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:furnator_starter",
+          "powah:furnator_basic",
+          "powah:furnator_hardened",
+          "powah:furnator_blazing",
+          "powah:furnator_niotic",
+          "powah:furnator_spirited",
+          "powah:furnator_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "generators/index.md",
+    "title": "能量产出",
+    "parent": "index.md",
+    "icon": "powah:magmator_niotic",
+    "position": 1,
+    "items": [],
+    "blocks": [
+      {
+        "type": "children"
+      },
+      {
+        "type": "heading",
+        "text": "操作步骤"
+      },
+      {
+        "type": "text",
+        "text": "熔炉发电机：燃料槽放入原版熔炉燃料。默认一块煤产生 48,000 FE；储能满时暂停消耗。"
+      },
+      {
+        "type": "text",
+        "text": "熔岩发电机：使用桶或流体管注入熔岩，每桶产生 100,000 FE。"
+      },
+      {
+        "type": "text",
+        "text": "热力发电机：供给水，并在下方放置熔岩、岩浆块或烈焰水晶块。工作时每 40 刻消耗 1 mB 水。"
+      },
+      {
+        "type": "text",
+        "text": "太阳能板：需要白天且上方无遮挡；装入末影透镜可以绕过遮挡，仍需日光。"
+      },
+      {
+        "type": "text",
+        "text": "能量单元储存 FE。用能量线缆连接发电机；传输受路径中最低等级线缆限制。侧面按钮配置输入、输出或关闭。能量单元左侧两格均可充电；熔炉、熔岩、热力发电机使用左下角的充电槽。"
+      }
+    ]
+  },
+  {
+    "id": "generators/magmator.md",
+    "title": "岩浆发电机",
+    "parent": "generators/index.md",
+    "icon": "powah:magmator_starter",
+    "position": 1,
+    "items": [
+      "powah:magmator_basic",
+      "powah:magmator_blazing",
+      "powah:magmator_hardened",
+      "powah:magmator_niotic",
+      "powah:magmator_nitro",
+      "powah:magmator_spirited",
+      "powah:magmator_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "generators/magmator.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "岩浆发电机通过熔岩等高温流体产出 FE 能量。"
+      },
+      {
+        "type": "text",
+        "text": "更高等级拥有更快的输出速度，同时每刻产出的 FE 能量也更多，产出能量相同时消耗燃料也更快。"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "电容",
+            "产出",
+            "最大输出"
+          ],
+          [
+            "<ItemLink id=\"powah:magmator_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:magmator_starter\" />",
+            "<powah:EnergyGeneration id=\"powah:magmator_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:magmator_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:magmator_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:magmator_basic\" />",
+            "<powah:EnergyGeneration id=\"powah:magmator_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:magmator_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:magmator_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:magmator_hardened\" />",
+            "<powah:EnergyGeneration id=\"powah:magmator_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:magmator_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:magmator_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:magmator_blazing\" />",
+            "<powah:EnergyGeneration id=\"powah:magmator_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:magmator_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:magmator_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:magmator_niotic\" />",
+            "<powah:EnergyGeneration id=\"powah:magmator_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:magmator_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:magmator_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:magmator_spirited\" />",
+            "<powah:EnergyGeneration id=\"powah:magmator_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:magmator_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:magmator_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:magmator_nitro\" />",
+            "<powah:EnergyGeneration id=\"powah:magmator_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:magmator_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:magmator_starter",
+          "powah:magmator_basic",
+          "powah:magmator_hardened",
+          "powah:magmator_blazing",
+          "powah:magmator_niotic",
+          "powah:magmator_spirited",
+          "powah:magmator_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "generators/reactor.md",
+    "title": "反应堆",
+    "parent": "generators/index.md",
+    "icon": "powah:reactor_starter",
+    "position": 4,
+    "items": [
+      "powah:reactor_basic",
+      "powah:reactor_blazing",
+      "powah:reactor_hardened",
+      "powah:reactor_niotic",
+      "powah:reactor_nitro",
+      "powah:reactor_spirited",
+      "powah:reactor_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "generators/reactor.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "反应堆是一种以晶质铀为燃料的多方块 FE 产能器。"
+      },
+      {
+        "type": "text",
+        "text": "要想建造一个反应堆，你需要将 36 个反应堆方块放入快捷栏中，并准备一块 3*4*3 格大小的可建造区域。在该区域的中心放置一个反应堆方块后，它会自动完成建造。"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "电容",
+            "产出系数",
+            "最大输出"
+          ],
+          [
+            "<ItemLink id=\"powah:reactor_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:reactor_starter\" />",
+            "<powah:EnergyGeneration id=\"powah:reactor_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:reactor_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:reactor_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:reactor_basic\" />",
+            "<powah:EnergyGeneration id=\"powah:reactor_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:reactor_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:reactor_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:reactor_hardened\" />",
+            "<powah:EnergyGeneration id=\"powah:reactor_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:reactor_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:reactor_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:reactor_blazing\" />",
+            "<powah:EnergyGeneration id=\"powah:reactor_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:reactor_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:reactor_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:reactor_niotic\" />",
+            "<powah:EnergyGeneration id=\"powah:reactor_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:reactor_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:reactor_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:reactor_spirited\" />",
+            "<powah:EnergyGeneration id=\"powah:reactor_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:reactor_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:reactor_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:reactor_nitro\" />",
+            "<powah:EnergyGeneration id=\"powah:reactor_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:reactor_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:reactor_starter",
+          "powah:reactor_basic",
+          "powah:reactor_hardened",
+          "powah:reactor_blazing",
+          "powah:reactor_niotic",
+          "powah:reactor_spirited",
+          "powah:reactor_nitro"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "操作步骤"
+      },
+      {
+        "type": "text",
+        "text": "携带 36 个完全相同的反应堆部件，在 3×4×3 空地放置。点击位置是底部中心，放置消耗 36 个部件。"
+      },
+      {
+        "type": "text",
+        "text": "最左下槽位给物品充电；中间放晶质铀，左上放熔炉燃料，左下放红石，右下放固体冷却剂。用流体管或桶供水。冰、雪球、浮冰、蓝冰和干冰可作固体冷却剂。"
+      },
+      {
+        "type": "text",
+        "text": "燃料上限 1,000 单位，每颗晶质铀补充 100。煤和红石提高效率；水和固体冷却剂降低温度和耗燃料速度。"
+      },
+      {
+        "type": "text",
+        "text": "底面中心、四个底层侧面中心和顶面中心可输出能量。自动模式在储能满时暂停，降至 70% 后恢复。"
+      },
+      {
+        "type": "text",
+        "text": "拆掉任意部件会拆解整座结构，返还 36 个部件及内部物品；能量和流体保留在返还的部件上。"
+      }
+    ]
+  },
+  {
+    "id": "generators/solar_panel.md",
+    "title": "太阳能板",
+    "parent": "generators/index.md",
+    "icon": "powah:solar_panel_starter",
+    "position": 3,
+    "items": [
+      "powah:solar_panel_basic",
+      "powah:solar_panel_blazing",
+      "powah:solar_panel_hardened",
+      "powah:solar_panel_niotic",
+      "powah:solar_panel_nitro",
+      "powah:solar_panel_spirited",
+      "powah:solar_panel_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "generators/solar_panel.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "太阳能板在阳光存在时会产出 FE 能量。更高等级每刻产出的 FE 能量更多。任何位于太阳能板上方阻挡其阳光的方块都会使其停止产出。"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "电容",
+            "产出",
+            "最大输出"
+          ],
+          [
+            "<ItemLink id=\"powah:solar_panel_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:solar_panel_starter\" />",
+            "<powah:EnergyGeneration id=\"powah:solar_panel_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:solar_panel_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:solar_panel_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:solar_panel_basic\" />",
+            "<powah:EnergyGeneration id=\"powah:solar_panel_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:solar_panel_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:solar_panel_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:solar_panel_hardened\" />",
+            "<powah:EnergyGeneration id=\"powah:solar_panel_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:solar_panel_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:solar_panel_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:solar_panel_blazing\" />",
+            "<powah:EnergyGeneration id=\"powah:solar_panel_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:solar_panel_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:solar_panel_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:solar_panel_niotic\" />",
+            "<powah:EnergyGeneration id=\"powah:solar_panel_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:solar_panel_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:solar_panel_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:solar_panel_spirited\" />",
+            "<powah:EnergyGeneration id=\"powah:solar_panel_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:solar_panel_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:solar_panel_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:solar_panel_nitro\" />",
+            "<powah:EnergyGeneration id=\"powah:solar_panel_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:solar_panel_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:solar_panel_starter",
+          "powah:solar_panel_basic",
+          "powah:solar_panel_hardened",
+          "powah:solar_panel_blazing",
+          "powah:solar_panel_niotic",
+          "powah:solar_panel_spirited",
+          "powah:solar_panel_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "generators/thermo_generator.md",
+    "title": "热力发电机",
+    "parent": "generators/index.md",
+    "icon": "powah:thermo_generator_starter",
+    "position": 2,
+    "items": [
+      "powah:thermo_generator_basic",
+      "powah:thermo_generator_blazing",
+      "powah:thermo_generator_hardened",
+      "powah:thermo_generator_niotic",
+      "powah:thermo_generator_nitro",
+      "powah:thermo_generator_spirited",
+      "powah:thermo_generator_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "generators/thermo_generator.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "热力发电机在熔岩等高温流体或方块上方时会产出 FE 能量。需要消耗水作为流体冷却剂。"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "电容",
+            "产出",
+            "最大输出"
+          ],
+          [
+            "<ItemLink id=\"powah:thermo_generator_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:thermo_generator_starter\" />",
+            "<powah:EnergyGeneration id=\"powah:thermo_generator_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:thermo_generator_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:thermo_generator_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:thermo_generator_basic\" />",
+            "<powah:EnergyGeneration id=\"powah:thermo_generator_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:thermo_generator_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:thermo_generator_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:thermo_generator_hardened\" />",
+            "<powah:EnergyGeneration id=\"powah:thermo_generator_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:thermo_generator_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:thermo_generator_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:thermo_generator_blazing\" />",
+            "<powah:EnergyGeneration id=\"powah:thermo_generator_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:thermo_generator_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:thermo_generator_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:thermo_generator_niotic\" />",
+            "<powah:EnergyGeneration id=\"powah:thermo_generator_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:thermo_generator_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:thermo_generator_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:thermo_generator_spirited\" />",
+            "<powah:EnergyGeneration id=\"powah:thermo_generator_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:thermo_generator_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:thermo_generator_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:thermo_generator_nitro\" />",
+            "<powah:EnergyGeneration id=\"powah:thermo_generator_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:thermo_generator_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:thermo_generator_starter",
+          "powah:thermo_generator_basic",
+          "powah:thermo_generator_hardened",
+          "powah:thermo_generator_blazing",
+          "powah:thermo_generator_niotic",
+          "powah:thermo_generator_spirited",
+          "powah:thermo_generator_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "index.md",
+    "title": "Powah",
+    "parent": "",
+    "icon": "powah:book",
+    "position": 0,
+    "items": [],
+    "blocks": [
+      {
+        "type": "link",
+        "text": "能量产出",
+        "target": "generators/index.md"
+      },
+      {
+        "type": "link",
+        "text": "能量存储/转移",
+        "target": "storage_transfer/index.md"
+      },
+      {
+        "type": "link",
+        "text": "功能性方块",
+        "target": "energy_blocks/index.md"
+      },
+      {
+        "type": "link",
+        "text": "物品",
+        "target": "items/index.md"
+      },
+      {
+        "type": "link",
+        "text": "材料",
+        "target": "materials/index.md"
+      },
+      {
+        "type": "heading",
+        "text": "操作步骤"
+      },
+      {
+        "type": "text",
+        "text": "Powah 用于产生、储存和传输 Forge 能量（FE）。首先用煤炭、黏土和一桶熔岩制作绝缘膏。"
+      },
+      {
+        "type": "text",
+        "text": "设备依次分为入门、基础、硬化、烈焰、钻石、绿宝石、终极七级。高级材料需要充能合成。"
+      },
+      {
+        "type": "text",
+        "text": "对空气使用扳手可切换旋转、侧面配置和连接模式。潜行右键拆卸机器，保留能量和流体，返还内部物品。"
+      },
+      {
+        "type": "text",
+        "text": "安装 Ponder 后，悬停机器物品按住 W，或点击思索教程链接。较长页面可滚轮阅读。"
+      }
+    ]
+  },
+  {
+    "id": "items/battery.md",
+    "title": "电池",
+    "parent": "items/index.md",
+    "icon": "powah:battery_starter",
+    "position": 0,
+    "items": [
+      "powah:battery_basic",
+      "powah:battery_blazing",
+      "powah:battery_hardened",
+      "powah:battery_niotic",
+      "powah:battery_nitro",
+      "powah:battery_spirited",
+      "powah:battery_starter"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "充能玩家物品栏中的物品。同样可以在末影单元中通过按下 Shift 单击被加入至末影频道，其中所含能量也会被保留。"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "电容",
+            "最大输入输出"
+          ],
+          [
+            "<ItemLink id=\"powah:battery_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:battery_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:battery_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:battery_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:battery_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:battery_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:battery_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:battery_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:battery_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:battery_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:battery_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:battery_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:battery_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:battery_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:battery_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:battery_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:battery_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:battery_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:battery_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:battery_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:battery_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:battery_starter",
+          "powah:battery_basic",
+          "powah:battery_hardened",
+          "powah:battery_blazing",
+          "powah:battery_niotic",
+          "powah:battery_spirited",
+          "powah:battery_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "items/binding_card.md",
+    "title": "绑定卡",
+    "parent": "items/index.md",
+    "icon": "powah:binding_card",
+    "position": 4,
+    "items": [
+      "powah:binding_card"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "绑定卡可被用于链接同一维度中的玩家与玩家供电仪。"
+      },
+      {
+        "type": "text",
+        "text": "你首先需要将自己绑定与之绑定。右击以完成。"
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:binding_card"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "items/binding_card_dim.md",
+    "title": "绑定卡（跨维度）",
+    "parent": "items/index.md",
+    "icon": "powah:binding_card_dim",
+    "position": 5,
+    "items": [
+      "powah:binding_card_dim"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "绑定卡可被用于链接任意一个或两个维度中的玩家与玩家供电仪。"
+      },
+      {
+        "type": "text",
+        "text": "你首先需要将自己绑定与之绑定。右击以完成。"
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:binding_card_dim"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "items/charged_snowball.md",
+    "title": "带电雪球",
+    "parent": "items/index.md",
+    "icon": "powah:charged_snowball",
+    "position": 2,
+    "items": [
+      "powah:charged_snowball"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "落地时或命中生物时会召唤闪电。充能雪球以获得。"
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:charged_snowball"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "items/index.md",
+    "title": "物品",
+    "parent": "index.md",
+    "icon": "powah:battery_nitro",
+    "position": 4,
+    "items": [],
+    "blocks": [
+      {
+        "type": "children"
+      }
+    ]
+  },
+  {
+    "id": "items/lens_of_ender.md",
+    "title": "末影透镜",
+    "parent": "items/index.md",
+    "icon": "powah:lens_of_ender",
+    "position": 6,
+    "items": [
+      "powah:lens_of_ender"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "右击装至太阳能板上时可以使之无视上方方块产能。"
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:lens_of_ender"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "items/player_aerial_pearl.md",
+    "title": "玩家天线珍珠",
+    "parent": "items/index.md",
+    "icon": "powah:player_aerial_pearl",
+    "position": 3,
+    "items": [
+      "powah:player_aerial_pearl"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "用于合成玩家供电仪。"
+      },
+      {
+        "type": "text",
+        "text": "对僵尸或尸壳使用天线珍珠以获得。"
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:player_aerial_pearl"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "items/wrench.md",
+    "title": "扳手",
+    "parent": "items/index.md",
+    "icon": "powah:wrench",
+    "position": 1,
+    "items": [
+      "powah:wrench"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "扳手拥有 3 个模式，手持扳手按下 Shift 右击可以切换扳手的模式："
+      },
+      {
+        "type": "text",
+        "text": "配置模式：用于改变线缆的输入输出配置。"
+      },
+      {
+        "type": "text",
+        "text": "链接模式：用于链接可链接方块，例如充能台与充能棒。"
+      },
+      {
+        "type": "text",
+        "text": "旋转模式：用于水平旋转方块。"
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:wrench"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "materials/dry_ice.md",
+    "title": "干冰",
+    "parent": "materials/index.md",
+    "icon": "powah:dry_ice",
+    "position": 1,
+    "items": [],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "materials/dry_ice.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "干冰主要被用于降低反应堆的温度。它生成于 1-64 层，但也可以通过同时充能两个蓝冰获得。"
+      }
+    ]
+  },
+  {
+    "id": "materials/index.md",
+    "title": "材料",
+    "parent": "index.md",
+    "icon": "powah:uraninite",
+    "position": 5,
+    "items": [],
+    "blocks": [
+      {
+        "type": "children"
+      },
+      {
+        "type": "heading",
+        "text": "操作步骤"
+      },
+      {
+        "type": "text",
+        "text": "晶质铀矿分贫矿、普通矿和富矿。挖矿得到粗晶质铀，熔炼为晶质铀，或充能获得双倍产量。按富集程度，矿石方块充能产出 3、5、10 颗晶质铀。"
+      },
+      {
+        "type": "text",
+        "text": "在 1.12 地形中，贫矿生成于 Y 4～63，普通矿 Y 4～23，富矿 Y 4～11。寒冷群系地下生成干冰。深板岩矿保留供自定义世界使用。"
+      },
+      {
+        "type": "text",
+        "text": "由于 1.12 没有蓝冰，补充 powah:blue_ice，配方为 9 个浮冰。2 个蓝冰消耗 10,000 FE 充能为干冰。"
+      },
+      {
+        "type": "text",
+        "text": "充能雪球消耗 500,000 FE 合成，命中后召唤闪电。通用材料使用 Forge 矿物词典；只有其他模组提供铀锭时，才可用铀锭充能。"
+      }
+    ]
+  },
+  {
+    "id": "materials/uraninite.md",
+    "title": "晶质铀矿石",
+    "parent": "materials/index.md",
+    "icon": "powah:uraninite_ore_dense",
+    "position": 0,
+    "items": [],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "materials/uraninite.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "晶质铀矿石是一种稀有的矿石。其贫瘠变种生成于 1-64 层，其普通变种生成于 1-32 层，其致密变种生成于 1-16 层，而 1-4 层则有方块沉积物生成。"
+      },
+      {
+        "type": "text",
+        "text": "需要铁镐及更高等级的镐来挖掘。挖掘时会掉落 1 个与之变种类别相同的天然晶质铀（受时运影响）。"
+      }
+    ]
+  },
+  {
+    "id": "storage_transfer/ender_cell.md",
+    "title": "末影单元",
+    "parent": "storage_transfer/index.md",
+    "icon": "powah:ender_cell_starter",
+    "position": 2,
+    "items": [
+      "powah:ender_cell_basic",
+      "powah:ender_cell_blazing",
+      "powah:ender_cell_hardened",
+      "powah:ender_cell_niotic",
+      "powah:ender_cell_nitro",
+      "powah:ender_cell_spirited",
+      "powah:ender_cell_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "storage_transfer/ender_cell.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "末影单元可被用于为其拥有者在末影网络的特定频道内存储 FE 能量。"
+      },
+      {
+        "type": "text",
+        "text": "如果一个频道有有效的电容空间并存有能量，你便可以在任意位置的末影单元中访问该频道并提取其中的能量。"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "最大输入输出"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_cell_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_cell_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_cell_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_cell_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_cell_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_cell_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_cell_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_cell_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_cell_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_cell_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_cell_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_cell_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_cell_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_cell_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:ender_cell_starter",
+          "powah:ender_cell_basic",
+          "powah:ender_cell_hardened",
+          "powah:ender_cell_blazing",
+          "powah:ender_cell_niotic",
+          "powah:ender_cell_spirited",
+          "powah:ender_cell_nitro"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "操作步骤"
+      },
+      {
+        "type": "text",
+        "text": "末影单元和末影门按放置玩家 UUID 与频道共享持久网络。对应方块保持加载时，跨维度也可传输。"
+      },
+      {
+        "type": "text",
+        "text": "新频道容量为零。打开末影单元，Shift + 点击背包里的能量单元或电池，会消耗该物品，永久把容量和已有能量加入频道。左侧两个可见槽位用于充电。"
+      },
+      {
+        "type": "text",
+        "text": "将末影门设为同一频道，从贴附的面输入或输出能量。不同玩家、不同频道彼此隔离。"
+      },
+      {
+        "type": "text",
+        "text": "高等级最多解锁 12 个频道。拆卸末影单元不会删除频道能量或容量。只有所属玩家或管理员能修改配置。"
+      }
+    ]
+  },
+  {
+    "id": "storage_transfer/ender_gate.md",
+    "title": "末影道门",
+    "parent": "storage_transfer/index.md",
+    "icon": "powah:ender_gate_starter",
+    "position": 3,
+    "items": [
+      "powah:ender_gate_basic",
+      "powah:ender_gate_blazing",
+      "powah:ender_gate_hardened",
+      "powah:ender_gate_niotic",
+      "powah:ender_gate_nitro",
+      "powah:ender_gate_spirited",
+      "powah:ender_gate_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "storage_transfer/ender_gate.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "在相邻方块与末影网络之间转移能量。"
+      },
+      {
+        "type": "text",
+        "text": "与末影单元不同，你不能通过末影道门升级各个频道。"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "最大输入输出"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_gate_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_gate_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_gate_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_gate_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_gate_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_gate_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_gate_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_gate_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_gate_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_gate_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_gate_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_gate_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:ender_gate_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:ender_gate_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:ender_gate_starter",
+          "powah:ender_gate_basic",
+          "powah:ender_gate_hardened",
+          "powah:ender_gate_blazing",
+          "powah:ender_gate_niotic",
+          "powah:ender_gate_spirited",
+          "powah:ender_gate_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "storage_transfer/energy_cable.md",
+    "title": "能量线缆",
+    "parent": "storage_transfer/index.md",
+    "icon": "powah:energy_cable_starter",
+    "position": 1,
+    "items": [
+      "powah:energy_cable_basic",
+      "powah:energy_cable_blazing",
+      "powah:energy_cable_hardened",
+      "powah:energy_cable_niotic",
+      "powah:energy_cable_nitro",
+      "powah:energy_cable_spirited",
+      "powah:energy_cable_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "storage_transfer/energy_cable.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "线缆可被用于转移能量。"
+      },
+      {
+        "type": "text",
+        "text": "你可以通过手持设置为配置模式的扳手右击线缆来改变其转移模式。"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "最大输入输出"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cable_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cable_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cable_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cable_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cable_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cable_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cable_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cable_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cable_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cable_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cable_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cable_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cable_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cable_nitro\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:energy_cable_starter",
+          "powah:energy_cable_basic",
+          "powah:energy_cable_hardened",
+          "powah:energy_cable_blazing",
+          "powah:energy_cable_niotic",
+          "powah:energy_cable_spirited",
+          "powah:energy_cable_nitro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "storage_transfer/energy_cell.md",
+    "title": "能量单元",
+    "parent": "storage_transfer/index.md",
+    "icon": "powah:energy_cell_starter",
+    "position": 0,
+    "items": [
+      "powah:energy_cell_basic",
+      "powah:energy_cell_blazing",
+      "powah:energy_cell_creative",
+      "powah:energy_cell_hardened",
+      "powah:energy_cell_niotic",
+      "powah:energy_cell_nitro",
+      "powah:energy_cell_spirited",
+      "powah:energy_cell_starter"
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "image": "storage_transfer/energy_cell.png",
+        "width": 412,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "text": "能量单元可被用于存储 FE 能量。"
+      },
+      {
+        "type": "text",
+        "text": "同样可以在末影单元中通过按下 Shift 单击被加入至末影频道，其中所含能量也会被保留。"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "",
+            "电容",
+            "最大输入输出"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cell_starter\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_cell_starter\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cell_starter\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cell_basic\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_cell_basic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cell_basic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cell_hardened\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_cell_hardened\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cell_hardened\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cell_blazing\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_cell_blazing\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cell_blazing\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cell_niotic\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_cell_niotic\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cell_niotic\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cell_spirited\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_cell_spirited\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cell_spirited\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cell_nitro\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_cell_nitro\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cell_nitro\" />"
+          ],
+          [
+            "<ItemLink id=\"powah:energy_cell_creative\" />",
+            "<powah:EnergyCapacity id=\"powah:energy_cell_creative\" />",
+            "<powah:EnergyMaxIO id=\"powah:energy_cell_creative\" />"
+          ]
+        ]
+      },
+      {
+        "type": "recipes",
+        "items": [
+          "powah:energy_cell_starter",
+          "powah:energy_cell_basic",
+          "powah:energy_cell_hardened",
+          "powah:energy_cell_blazing",
+          "powah:energy_cell_niotic",
+          "powah:energy_cell_spirited",
+          "powah:energy_cell_nitro",
+          "powah:energy_cell_creative"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "storage_transfer/index.md",
+    "title": "能量存储/转移",
+    "parent": "index.md",
+    "icon": "powah:energy_cell_blazing",
+    "position": 2,
+    "items": [],
+    "blocks": [
+      {
+        "type": "children"
+      }
+    ]
+  }
+]

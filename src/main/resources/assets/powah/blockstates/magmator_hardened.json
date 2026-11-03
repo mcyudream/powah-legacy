@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "powah:magmator_hardened"
+    },
+    "facing=south": {
+      "model": "powah:magmator_hardened",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "powah:magmator_hardened",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "powah:magmator_hardened",
+      "y": 90
+    },
+    "facing=up": {
+      "model": "powah:magmator_hardened"
+    },
+    "facing=down": {
+      "model": "powah:magmator_hardened"
+    }
+  }
+}

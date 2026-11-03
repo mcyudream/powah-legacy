@@ -1,0 +1,26 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "b": {
+      "item": "powah:crystal_spirited"
+    },
+    "c": {
+      "item": "powah:energy_cell_niotic"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "n": {
+      "item": "powah:capacitor_spirited"
+    }
+  },
+  "pattern": [
+    "bnb",
+    "cdc",
+    "bnb"
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:energy_cell_spirited"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "c": {
+      "item": "powah:ender_core"
+    },
+    "i": {
+      "item": "powah:energy_cable_spirited"
+    },
+    "o": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "oio",
+    "ici",
+    "oio"
+  ],
+  "result": {
+    "count": 4,
+    "item": "powah:ender_gate_spirited"
+  }
+}

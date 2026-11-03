@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "key": {
+    "h": {
+      "item": "powah:dielectric_rod_horizontal"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "v": {
+      "item": "powah:dielectric_rod"
+    }
+  },
+  "pattern": [
+    "ihi",
+    "v v",
+    "ihi"
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:dielectric_casing"
+  }
+}

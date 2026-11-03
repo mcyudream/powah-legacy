@@ -1,0 +1,565 @@
+{
+  "blocks": [
+    {
+      "id": "energy_cell_starter",
+      "kind": "energy_cell",
+      "tier": "starter"
+    },
+    {
+      "id": "energy_cell_basic",
+      "kind": "energy_cell",
+      "tier": "basic"
+    },
+    {
+      "id": "energy_cell_hardened",
+      "kind": "energy_cell",
+      "tier": "hardened"
+    },
+    {
+      "id": "energy_cell_blazing",
+      "kind": "energy_cell",
+      "tier": "blazing"
+    },
+    {
+      "id": "energy_cell_niotic",
+      "kind": "energy_cell",
+      "tier": "niotic"
+    },
+    {
+      "id": "energy_cell_spirited",
+      "kind": "energy_cell",
+      "tier": "spirited"
+    },
+    {
+      "id": "energy_cell_nitro",
+      "kind": "energy_cell",
+      "tier": "nitro"
+    },
+    {
+      "id": "ender_cell_starter",
+      "kind": "ender_cell",
+      "tier": "starter"
+    },
+    {
+      "id": "ender_cell_basic",
+      "kind": "ender_cell",
+      "tier": "basic"
+    },
+    {
+      "id": "ender_cell_hardened",
+      "kind": "ender_cell",
+      "tier": "hardened"
+    },
+    {
+      "id": "ender_cell_blazing",
+      "kind": "ender_cell",
+      "tier": "blazing"
+    },
+    {
+      "id": "ender_cell_niotic",
+      "kind": "ender_cell",
+      "tier": "niotic"
+    },
+    {
+      "id": "ender_cell_spirited",
+      "kind": "ender_cell",
+      "tier": "spirited"
+    },
+    {
+      "id": "ender_cell_nitro",
+      "kind": "ender_cell",
+      "tier": "nitro"
+    },
+    {
+      "id": "energy_cable_starter",
+      "kind": "energy_cable",
+      "tier": "starter"
+    },
+    {
+      "id": "energy_cable_basic",
+      "kind": "energy_cable",
+      "tier": "basic"
+    },
+    {
+      "id": "energy_cable_hardened",
+      "kind": "energy_cable",
+      "tier": "hardened"
+    },
+    {
+      "id": "energy_cable_blazing",
+      "kind": "energy_cable",
+      "tier": "blazing"
+    },
+    {
+      "id": "energy_cable_niotic",
+      "kind": "energy_cable",
+      "tier": "niotic"
+    },
+    {
+      "id": "energy_cable_spirited",
+      "kind": "energy_cable",
+      "tier": "spirited"
+    },
+    {
+      "id": "energy_cable_nitro",
+      "kind": "energy_cable",
+      "tier": "nitro"
+    },
+    {
+      "id": "ender_gate_starter",
+      "kind": "ender_gate",
+      "tier": "starter"
+    },
+    {
+      "id": "ender_gate_basic",
+      "kind": "ender_gate",
+      "tier": "basic"
+    },
+    {
+      "id": "ender_gate_hardened",
+      "kind": "ender_gate",
+      "tier": "hardened"
+    },
+    {
+      "id": "ender_gate_blazing",
+      "kind": "ender_gate",
+      "tier": "blazing"
+    },
+    {
+      "id": "ender_gate_niotic",
+      "kind": "ender_gate",
+      "tier": "niotic"
+    },
+    {
+      "id": "ender_gate_spirited",
+      "kind": "ender_gate",
+      "tier": "spirited"
+    },
+    {
+      "id": "ender_gate_nitro",
+      "kind": "ender_gate",
+      "tier": "nitro"
+    },
+    {
+      "id": "energizing_rod_starter",
+      "kind": "energizing_rod",
+      "tier": "starter"
+    },
+    {
+      "id": "energizing_rod_basic",
+      "kind": "energizing_rod",
+      "tier": "basic"
+    },
+    {
+      "id": "energizing_rod_hardened",
+      "kind": "energizing_rod",
+      "tier": "hardened"
+    },
+    {
+      "id": "energizing_rod_blazing",
+      "kind": "energizing_rod",
+      "tier": "blazing"
+    },
+    {
+      "id": "energizing_rod_niotic",
+      "kind": "energizing_rod",
+      "tier": "niotic"
+    },
+    {
+      "id": "energizing_rod_spirited",
+      "kind": "energizing_rod",
+      "tier": "spirited"
+    },
+    {
+      "id": "energizing_rod_nitro",
+      "kind": "energizing_rod",
+      "tier": "nitro"
+    },
+    {
+      "id": "furnator_starter",
+      "kind": "furnator",
+      "tier": "starter"
+    },
+    {
+      "id": "furnator_basic",
+      "kind": "furnator",
+      "tier": "basic"
+    },
+    {
+      "id": "furnator_hardened",
+      "kind": "furnator",
+      "tier": "hardened"
+    },
+    {
+      "id": "furnator_blazing",
+      "kind": "furnator",
+      "tier": "blazing"
+    },
+    {
+      "id": "furnator_niotic",
+      "kind": "furnator",
+      "tier": "niotic"
+    },
+    {
+      "id": "furnator_spirited",
+      "kind": "furnator",
+      "tier": "spirited"
+    },
+    {
+      "id": "furnator_nitro",
+      "kind": "furnator",
+      "tier": "nitro"
+    },
+    {
+      "id": "magmator_starter",
+      "kind": "magmator",
+      "tier": "starter"
+    },
+    {
+      "id": "magmator_basic",
+      "kind": "magmator",
+      "tier": "basic"
+    },
+    {
+      "id": "magmator_hardened",
+      "kind": "magmator",
+      "tier": "hardened"
+    },
+    {
+      "id": "magmator_blazing",
+      "kind": "magmator",
+      "tier": "blazing"
+    },
+    {
+      "id": "magmator_niotic",
+      "kind": "magmator",
+      "tier": "niotic"
+    },
+    {
+      "id": "magmator_spirited",
+      "kind": "magmator",
+      "tier": "spirited"
+    },
+    {
+      "id": "magmator_nitro",
+      "kind": "magmator",
+      "tier": "nitro"
+    },
+    {
+      "id": "thermo_generator_starter",
+      "kind": "thermo_generator",
+      "tier": "starter"
+    },
+    {
+      "id": "thermo_generator_basic",
+      "kind": "thermo_generator",
+      "tier": "basic"
+    },
+    {
+      "id": "thermo_generator_hardened",
+      "kind": "thermo_generator",
+      "tier": "hardened"
+    },
+    {
+      "id": "thermo_generator_blazing",
+      "kind": "thermo_generator",
+      "tier": "blazing"
+    },
+    {
+      "id": "thermo_generator_niotic",
+      "kind": "thermo_generator",
+      "tier": "niotic"
+    },
+    {
+      "id": "thermo_generator_spirited",
+      "kind": "thermo_generator",
+      "tier": "spirited"
+    },
+    {
+      "id": "thermo_generator_nitro",
+      "kind": "thermo_generator",
+      "tier": "nitro"
+    },
+    {
+      "id": "solar_panel_starter",
+      "kind": "solar_panel",
+      "tier": "starter"
+    },
+    {
+      "id": "solar_panel_basic",
+      "kind": "solar_panel",
+      "tier": "basic"
+    },
+    {
+      "id": "solar_panel_hardened",
+      "kind": "solar_panel",
+      "tier": "hardened"
+    },
+    {
+      "id": "solar_panel_blazing",
+      "kind": "solar_panel",
+      "tier": "blazing"
+    },
+    {
+      "id": "solar_panel_niotic",
+      "kind": "solar_panel",
+      "tier": "niotic"
+    },
+    {
+      "id": "solar_panel_spirited",
+      "kind": "solar_panel",
+      "tier": "spirited"
+    },
+    {
+      "id": "solar_panel_nitro",
+      "kind": "solar_panel",
+      "tier": "nitro"
+    },
+    {
+      "id": "reactor_starter",
+      "kind": "reactor",
+      "tier": "starter"
+    },
+    {
+      "id": "reactor_basic",
+      "kind": "reactor",
+      "tier": "basic"
+    },
+    {
+      "id": "reactor_hardened",
+      "kind": "reactor",
+      "tier": "hardened"
+    },
+    {
+      "id": "reactor_blazing",
+      "kind": "reactor",
+      "tier": "blazing"
+    },
+    {
+      "id": "reactor_niotic",
+      "kind": "reactor",
+      "tier": "niotic"
+    },
+    {
+      "id": "reactor_spirited",
+      "kind": "reactor",
+      "tier": "spirited"
+    },
+    {
+      "id": "reactor_nitro",
+      "kind": "reactor",
+      "tier": "nitro"
+    },
+    {
+      "id": "player_transmitter_starter",
+      "kind": "player_transmitter",
+      "tier": "starter"
+    },
+    {
+      "id": "player_transmitter_basic",
+      "kind": "player_transmitter",
+      "tier": "basic"
+    },
+    {
+      "id": "player_transmitter_hardened",
+      "kind": "player_transmitter",
+      "tier": "hardened"
+    },
+    {
+      "id": "player_transmitter_blazing",
+      "kind": "player_transmitter",
+      "tier": "blazing"
+    },
+    {
+      "id": "player_transmitter_niotic",
+      "kind": "player_transmitter",
+      "tier": "niotic"
+    },
+    {
+      "id": "player_transmitter_spirited",
+      "kind": "player_transmitter",
+      "tier": "spirited"
+    },
+    {
+      "id": "player_transmitter_nitro",
+      "kind": "player_transmitter",
+      "tier": "nitro"
+    },
+    {
+      "id": "energy_hopper_starter",
+      "kind": "energy_hopper",
+      "tier": "starter"
+    },
+    {
+      "id": "energy_hopper_basic",
+      "kind": "energy_hopper",
+      "tier": "basic"
+    },
+    {
+      "id": "energy_hopper_hardened",
+      "kind": "energy_hopper",
+      "tier": "hardened"
+    },
+    {
+      "id": "energy_hopper_blazing",
+      "kind": "energy_hopper",
+      "tier": "blazing"
+    },
+    {
+      "id": "energy_hopper_niotic",
+      "kind": "energy_hopper",
+      "tier": "niotic"
+    },
+    {
+      "id": "energy_hopper_spirited",
+      "kind": "energy_hopper",
+      "tier": "spirited"
+    },
+    {
+      "id": "energy_hopper_nitro",
+      "kind": "energy_hopper",
+      "tier": "nitro"
+    },
+    {
+      "id": "energy_discharger_starter",
+      "kind": "energy_discharger",
+      "tier": "starter"
+    },
+    {
+      "id": "energy_discharger_basic",
+      "kind": "energy_discharger",
+      "tier": "basic"
+    },
+    {
+      "id": "energy_discharger_hardened",
+      "kind": "energy_discharger",
+      "tier": "hardened"
+    },
+    {
+      "id": "energy_discharger_blazing",
+      "kind": "energy_discharger",
+      "tier": "blazing"
+    },
+    {
+      "id": "energy_discharger_niotic",
+      "kind": "energy_discharger",
+      "tier": "niotic"
+    },
+    {
+      "id": "energy_discharger_spirited",
+      "kind": "energy_discharger",
+      "tier": "spirited"
+    },
+    {
+      "id": "energy_discharger_nitro",
+      "kind": "energy_discharger",
+      "tier": "nitro"
+    },
+    {
+      "id": "energy_cell_creative",
+      "kind": "energy_cell",
+      "tier": "creative"
+    },
+    {
+      "id": "energizing_orb",
+      "kind": "energizing_orb",
+      "tier": "starter"
+    },
+    {
+      "id": "energized_steel_block",
+      "kind": "solid"
+    },
+    {
+      "id": "blazing_crystal_block",
+      "kind": "solid"
+    },
+    {
+      "id": "niotic_crystal_block",
+      "kind": "solid"
+    },
+    {
+      "id": "spirited_crystal_block",
+      "kind": "solid"
+    },
+    {
+      "id": "nitro_crystal_block",
+      "kind": "solid"
+    },
+    {
+      "id": "uraninite_block",
+      "kind": "solid"
+    },
+    {
+      "id": "uraninite_ore_poor",
+      "kind": "ore"
+    },
+    {
+      "id": "uraninite_ore",
+      "kind": "ore"
+    },
+    {
+      "id": "uraninite_ore_dense",
+      "kind": "ore"
+    },
+    {
+      "id": "deepslate_uraninite_ore_poor",
+      "kind": "ore"
+    },
+    {
+      "id": "deepslate_uraninite_ore",
+      "kind": "ore"
+    },
+    {
+      "id": "deepslate_uraninite_ore_dense",
+      "kind": "ore"
+    },
+    {
+      "id": "dry_ice",
+      "kind": "solid"
+    },
+    {
+      "id": "blue_ice",
+      "kind": "solid"
+    }
+  ],
+  "items": [
+    "book",
+    "wrench",
+    "capacitor_basic_tiny",
+    "capacitor_basic",
+    "capacitor_basic_large",
+    "capacitor_hardened",
+    "capacitor_blazing",
+    "capacitor_niotic",
+    "capacitor_spirited",
+    "capacitor_nitro",
+    "aerial_pearl",
+    "player_aerial_pearl",
+    "blank_card",
+    "binding_card",
+    "binding_card_dim",
+    "lens_of_ender",
+    "photoelectric_pane",
+    "thermoelectric_plate",
+    "dielectric_paste",
+    "dielectric_rod",
+    "dielectric_rod_horizontal",
+    "dielectric_casing",
+    "steel_energized",
+    "crystal_blazing",
+    "crystal_niotic",
+    "crystal_spirited",
+    "crystal_nitro",
+    "ender_core",
+    "charged_snowball",
+    "uraninite_raw",
+    "uraninite",
+    "battery_starter",
+    "battery_basic",
+    "battery_hardened",
+    "battery_blazing",
+    "battery_niotic",
+    "battery_spirited",
+    "battery_nitro"
+  ]
+}

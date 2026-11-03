@@ -1,0 +1,242 @@
+[
+  {
+    "type": "powah:energizing",
+    "energy": 120000,
+    "ingredients": [
+      {
+        "item": "minecraft:blaze_powder"
+      },
+      {
+        "item": "minecraft:blaze_powder"
+      },
+      {
+        "item": "minecraft:blaze_powder"
+      },
+      {
+        "item": "minecraft:blaze_powder"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "item": "powah:crystal_blazing"
+    },
+    "id": "powah:energizing/blazing_crystal"
+  },
+  {
+    "type": "powah:energizing",
+    "energy": 120000,
+    "ingredients": [
+      {
+        "type": "forge:ore_dict",
+        "ore": "rodBlaze"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "item": "powah:crystal_blazing"
+    },
+    "id": "powah:energizing/blazing_crystal_2"
+  },
+  {
+    "type": "powah:energizing",
+    "energy": 500000,
+    "ingredients": [
+      {
+        "item": "minecraft:snowball"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "item": "powah:charged_snowball"
+    },
+    "id": "powah:energizing/charged_snowball"
+  },
+  {
+    "type": "powah:energizing",
+    "energy": 10000,
+    "ingredients": [
+      {
+        "type": "forge:ore_dict",
+        "ore": "iceBlue"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "iceBlue"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "item": "powah:dry_ice"
+    },
+    "id": "powah:energizing/dry_ice"
+  },
+  {
+    "type": "powah:energizing",
+    "energy": 50000,
+    "ingredients": [
+      {
+        "item": "minecraft:ender_eye"
+      },
+      {
+        "item": "powah:dielectric_casing"
+      },
+      {
+        "item": "powah:capacitor_basic_tiny"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "item": "powah:ender_core"
+    },
+    "id": "powah:energizing/ender_core"
+  },
+  {
+    "type": "powah:energizing",
+    "energy": 10000,
+    "ingredients": [
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotIron"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotGold"
+      }
+    ],
+    "result": {
+      "count": 2,
+      "item": "powah:steel_energized"
+    },
+    "id": "powah:energizing/energized_steel"
+  },
+  {
+    "type": "powah:energizing",
+    "energy": 300000,
+    "ingredients": [
+      {
+        "type": "forge:ore_dict",
+        "ore": "gemDiamond"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "item": "powah:crystal_niotic"
+    },
+    "id": "powah:energizing/niotic_crystal"
+  },
+  {
+    "type": "powah:energizing",
+    "energy": 20000000,
+    "ingredients": [
+      {
+        "type": "forge:ore_dict",
+        "ore": "netherStar"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "blockRedstone"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "blockRedstone"
+      },
+      {
+        "item": "powah:blazing_crystal_block"
+      }
+    ],
+    "result": {
+      "count": 16,
+      "item": "powah:crystal_nitro"
+    },
+    "id": "powah:energizing/nitro_crystal"
+  },
+  {
+    "type": "powah:energizing",
+    "energy": 1000000,
+    "ingredients": [
+      {
+        "type": "forge:ore_dict",
+        "ore": "gemEmerald"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "item": "powah:crystal_spirited"
+    },
+    "id": "powah:energizing/spirited_crystal"
+  },
+  {
+    "type": "powah:energizing",
+    "energy": 50000,
+    "ingredients": [
+      {
+        "type": "forge:ore_dict",
+        "ore": "oreUraninite"
+      }
+    ],
+    "result": {
+      "count": 5,
+      "item": "powah:uraninite"
+    },
+    "id": "powah:energizing/uraninite_from_ore"
+  },
+  {
+    "type": "powah:energizing",
+    "energy": 100000,
+    "ingredients": [
+      {
+        "type": "forge:ore_dict",
+        "ore": "oreUraniniteDense"
+      }
+    ],
+    "result": {
+      "count": 10,
+      "item": "powah:uraninite"
+    },
+    "id": "powah:energizing/uraninite_from_ore_dense"
+  },
+  {
+    "type": "powah:energizing",
+    "energy": 25000,
+    "ingredients": [
+      {
+        "type": "forge:ore_dict",
+        "ore": "oreUraninitePoor"
+      }
+    ],
+    "result": {
+      "count": 3,
+      "item": "powah:uraninite"
+    },
+    "id": "powah:energizing/uraninite_from_ore_poor"
+  },
+  {
+    "type": "powah:energizing",
+    "energy": 2000,
+    "ingredients": [
+      {
+        "item": "powah:uraninite_raw"
+      }
+    ],
+    "result": {
+      "count": 2,
+      "item": "powah:uraninite"
+    },
+    "id": "powah:energizing/uraninite_from_raw"
+  },
+  {
+    "type": "powah:energizing",
+    "energy": 30000,
+    "ingredients": [
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotUranium"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "item": "powah:uraninite"
+    },
+    "id": "powah:energizing/uraninite_from_uranium"
+  }
+]

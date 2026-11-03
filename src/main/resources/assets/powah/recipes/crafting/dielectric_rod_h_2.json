@@ -1,0 +1,12 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:dielectric_rod"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:dielectric_rod_horizontal"
+  }
+}

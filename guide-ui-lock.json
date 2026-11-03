@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/AppliedEnergistics/GuideME",
+  "version": "21.1.7",
+  "artifact": "https://repo.maven.apache.org/maven2/org/appliedenergistics/guideme/21.1.7/guideme-21.1.7.jar",
+  "sha256": "c3a887e88525e06f116da767d0905509e81d2792c0452f49f6907c1b88f386bf",
+  "sources_sha256": "0afcb138c2db3a6e00ef72de9a9a7063e092cde94301b91805eee979b2bb35f5",
+  "license": "LGPL-3.0",
+  "imported_assets": ["assets/guideme/textures/gui/sprites/background.png", "assets/guideme/textures/guide/buttons.png"]
+}

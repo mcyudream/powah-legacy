@@ -1,0 +1,15 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:capacitor_basic"
+    },
+    {
+      "item": "powah:capacitor_basic"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:capacitor_basic_large"
+  }
+}

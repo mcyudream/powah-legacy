@@ -1,0 +1,36 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:uraninite"
+    },
+    {
+      "item": "powah:uraninite"
+    },
+    {
+      "item": "powah:uraninite"
+    },
+    {
+      "item": "powah:uraninite"
+    },
+    {
+      "item": "powah:uraninite"
+    },
+    {
+      "item": "powah:uraninite"
+    },
+    {
+      "item": "powah:uraninite"
+    },
+    {
+      "item": "powah:uraninite"
+    },
+    {
+      "item": "powah:uraninite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "powah:uraninite_block"
+  }
+}
