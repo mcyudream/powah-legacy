@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/Technici4n/Powah",
+  "branch": "1.21.1",
+  "commit": "959d5657b14fada803bc06b024acb5eef8156ab7",
+  "version": "5.1.0-alpha",
+  "minecraft": "1.21.1",
+  "target": "Minecraft 1.12.2 / Cleanroom >= 0.4.0-alpha / Java 25",
+  "cleanroom_userdev": "0.7.14-alpha",
+  "cleanroom_baseline": "0.4.0-alpha"
+}

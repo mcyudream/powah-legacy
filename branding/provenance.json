@@ -1,0 +1,33 @@
+{
+  "project": "Powah Legacy",
+  "commissioned_by": "yudream",
+  "artwork": "AI-generated project artwork; original upstream logos are not used",
+  "assets": [
+    {
+      "directory": "powah",
+      "variant": "icon",
+      "prompt": "Use case: ads-marketing. Asset type: square Minecraft mod project icon, 1024 by 1024. Create one finished production image. Reference image 1 is a STYLE reference for the coherent Legacy series: crisp polished voxel 3D item illustration, dark navy square-grid background, brass accents, high contrast, generous spacing. Reference image 2 is the original representative in-game ITEM sprite: keep its recognizable object and palette while illustrating it as a polished voxel item. Main subject: a vivid red jagged nitro crystal as the unmistakable hero item, suspended between two compact voxel energizing rods, contained red energy arcs and a dark reactor base. Palette accents: crimson red and warm orange. Square compact composition: large single symbolic item in upper 65 percent, restrained readable block lettering in lower part. Keep a clear silhouette at small size. Text must be exactly 'POWAH' and separate smaller line 'LEGACY' . Line break long titles sensibly; spell every word correctly. Do not copy Ponder's book motif from the style reference unless this project's subject is a tutorial or spellbook. No Minecraft corporate logo, no upstream logos, no watermarks, no additional words, no mockup, no contact sheet. Deliver a single square icon.",
+      "file": "icon.png",
+      "sha256": "4eaf67271e942bfb5f27a2856a7de980bb8299507d27eedadd8ef18a3ece09bd",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "generation_tool": "image_gen.imagegen",
+      "visual_review": "title and subject checked"
+    },
+    {
+      "directory": "powah",
+      "variant": "cover",
+      "prompt": "Use case: ads-marketing. Asset type: landscape Minecraft mod repository and distribution page cover, 1536 by 864. Create one finished production image. Reference image 1 is a STYLE reference for the coherent Legacy series: crisp polished voxel 3D item illustration, dark navy square-grid background, brass accents, high contrast, generous spacing. Reference image 2 is the original representative in-game ITEM sprite: keep its recognizable object and palette while illustrating it as a polished voxel item. Main subject: a vivid red jagged nitro crystal as the unmistakable hero item, suspended between two compact voxel energizing rods, contained red energy arcs and a dark reactor base. Palette accents: crimson red and warm orange. Landscape cover composition: hero symbolic item on left, substantial negative space on right for bold beautifully typeset title. Text must be exactly 'POWAH' and separate smaller line 'LEGACY' , plus small line 'by yudream'. Line break long titles sensibly; spell every word correctly. Do not copy Ponder's book motif from the style reference unless this project's subject is a tutorial or spellbook. No Minecraft corporate logo, no upstream logos, no watermarks, no additional words, no mockup, no contact sheet. Deliver a single landscape cover.",
+      "file": "cover.png",
+      "sha256": "c6e925dd57acd9e7c00954690f09bef89ca7263e83d855341907d0c19adaa93c",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_tool": "image_gen.imagegen",
+      "visual_review": "title and subject checked"
+    }
+  ]
+}
