@@ -1,0 +1,16 @@
+{
+  "directory": "powah",
+  "modid": "powah-legacy",
+  "name": "Powah Legacy",
+  "resource_namespace": "powah",
+  "repository": "mcyudream/powah-legacy",
+  "minecraft": "1.12.2",
+  "cleanroom_baseline": "0.4.0",
+  "java": 25,
+  "ae2_implementation": null,
+  "ae2_loader_modid": null,
+  "status": "awaiting-renamed-artifact-verification",
+  "author": "yudream",
+  "original_authors": "owmii (original), Technici4n and Powah contributors",
+  "original_repository": "https://github.com/Technici4n/Powah"
+}
