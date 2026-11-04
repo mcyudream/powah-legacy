@@ -17,6 +17,9 @@ import owmii.powah.block.*;
 /** Loaded by Ponder's IMC handler only when that separate mod is installed. */
 public final class PowahPonderPlugin implements PonderPlugin {
     private static final ResourceLocation TAG = Powah.id("energy");
+    public PowahPonderPlugin() {
+        net.minecraftforge.common.MinecraftForge.EVENT_BUS.register(new PowahPonderClientEvents());
+    }
     @Override public String getModId() { return Powah.MOD_ID; }
     @Override public void registerScenes(PonderSceneRegistrationHelper<ResourceLocation> helper) {
         Content.BLOCKS.forEach((name, block) -> {

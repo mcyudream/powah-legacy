@@ -10,7 +10,7 @@
       "yudream"
     ],
     "dependencies": [
-      "cleanroom@[0.4.0-alpha,)"
+      "cleanroom@[0.4.0,)"
     ],
     "useDependencyInformation": false,
     "credits": "Original author(s): owmii (original), Technici4n and Powah contributors. Original repository: https://github.com/Technici4n/Powah.",

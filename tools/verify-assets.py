@@ -39,4 +39,9 @@ for name in ('en_us', 'zh_cn'):
             if block['type'] == 'table': assert len({len(row) for row in block['rows']}) == 1
 assert page_sets[0] == page_sets[1]
 assert 'required-after:cleanroom@[0.4.0,)' in (ROOT / 'src/main/java/owmii/powah/Powah.java').read_text()
-print(f'PASS: {len(english)} bilingual keys, 145 content names, 28 bilingual guide pages, Cleanroom 0.4.0-alpha minimum.')
+metadata = json.loads((ROOT / 'src/main/resources/mcmod.info').read_text())[0]
+runtime = json.loads((ROOT / 'runtime-lock.json').read_text())
+assert metadata['dependencies'] == ['cleanroom@[0.4.0,)']
+assert runtime['cleanroom_minimum'] == '0.4.0'
+assert runtime['ponder']['optional'] and runtime['ponder']['modid'] == 'ponder-legacy'
+print(f'PASS: {len(english)} bilingual keys, 145 content names, 28 bilingual guide pages, Cleanroom 0.4.0 minimum.')

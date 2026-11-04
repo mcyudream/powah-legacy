@@ -14,6 +14,8 @@
   "original_authors": "owmii (original), Technici4n and Powah contributors",
   "original_repository": "https://github.com/Technici4n/Powah",
   "verification_document": "LEGACY-VERIFICATION.md",
-  "verified_jar_sha256": "fbd35b090fdb12f7b207ce74c28510ab9f7073ce6f90ade8b2f8ff6e3ca4e22a",
-  "verified_main_source_sha256": "984f8ddd6e584b6fbb048f14937ee1e2d481c3fa88d96a0bf79d5b5efb77e8cd"
+  "verified_jar_sha256": "ffa681c0fd8f5c36c3748dec95646d6c080c417101aaa478e625ece67ecba909",
+  "verified_main_source_sha256": "32c4e3c3c04ad3b91e42a861ec6e0cac6588251af8993451fea0abeef70dcd45",
+  "release_tag": "v5.1.0-cleanroom-alpha.2",
+  "verification_directory": "docs/verification/releases/5.1.0-cleanroom-alpha.2"
 }

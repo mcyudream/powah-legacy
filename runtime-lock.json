@@ -1,6 +1,6 @@
 {
   "minecraft": "1.12.2",
-  "cleanroom_minimum": "0.4.0-alpha",
+  "cleanroom_minimum": "0.4.0",
   "cleanroom_userdev": "0.7.14-alpha",
   "java": 25,
   "cleanroom_runtime": {
@@ -9,7 +9,7 @@
   },
   "ponder": {
     "optional": true,
-    "modid": "ponder_legacy",
+    "modid": "ponder-legacy",
     "version": "1.4.0-cleanroom-alpha.1",
     "project": "../ponder"
   },
